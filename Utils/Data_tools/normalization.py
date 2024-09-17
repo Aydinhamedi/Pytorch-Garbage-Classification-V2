@@ -3,35 +3,43 @@ import numpy as np
 
 
 # Funcs >>>
-def calculate_normalization_params(images, chunk_size=1024):
+def calculate_normalization_params(images, batch_size=32):
     """
-    Calculate normalization parameters for a set of grayscale images.
+    Compute the mean and standard deviation of a dataset of images in batches.
 
-    Args:
-        images (np.ndarray): Numpy array of shape (num_images, height, width)
-        chunk_size (int, optional): Number of images to process at once. Defaults to 1024.
+    Parameters:
+    images (numpy.ndarray): A numpy array of images with shape (n, H, W, C) where
+                            n is the number of images, H is the height, W is the width,
+                            and C is the number of channels. Supports both RGB (C=3) and
+                            grayscale (C=1) images.
+    batch_size (int): The number of images to process in each batch.
 
     Returns:
-        dict: A dictionary containing the mean and standard deviation of the images.
+    tuple: A tuple containing the mean and standard deviation of the dataset.
     """
-    n = 0
-    mean = 0.0
-    M2 = 0.0
+    if images.ndim == 3:
+        # If grayscale images with shape (n, H, W), add a channel dimension
+        images = np.expand_dims(images, axis=-1)
 
-    for i in range(0, len(images), chunk_size):
-        chunk = images[i : i + chunk_size].astype(np.float64).reshape(-1)
-        chunk_n = chunk.size
+    num_images, height, width, channels = images.shape
+    mean = np.zeros(channels)
+    variance = np.zeros(channels)
+    num_pixels = 0
 
-        chunk_mean = np.mean(chunk)
-        chunk_var = np.var(chunk)
+    for i in range(0, num_images, batch_size):
+        batch = images[i : i + batch_size]
+        batch_mean = np.mean(batch, axis=(0, 1, 2))
+        batch_variance = np.var(batch, axis=(0, 1, 2))
+        batch_pixels = batch.shape[0] * height * width
 
-        delta = chunk_mean - mean
-        mean += delta * chunk_n / (n + chunk_n)
-        M2 += chunk_var * (chunk_n - 1) + delta**2 * n * chunk_n / (n + chunk_n)
-        n += chunk_n
+        mean += batch_mean * batch_pixels
+        variance += batch_variance * batch_pixels
+        num_pixels += batch_pixels
 
-    variance = M2 / (n - 1)
+    mean /= num_pixels
+    variance /= num_pixels
     std = np.sqrt(variance)
+
     return {"mean": mean, "std": std}
 
 

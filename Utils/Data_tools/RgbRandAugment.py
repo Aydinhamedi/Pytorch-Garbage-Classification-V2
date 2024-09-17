@@ -42,7 +42,7 @@ def get_scaling_random_crop(magnitude, img_size):
     )
 
 
-def rgb_augmentation_transform(magnitude=10, img_size=(224, 224)):
+def rgb_augmentation_transform(magnitude=10, img_size=(224, 224), norm_params=None):
     # Ensure magnitude is within the range
     magnitude = max(0.5, min(magnitude, 30))
 
@@ -99,5 +99,12 @@ def rgb_augmentation_transform(magnitude=10, img_size=(224, 224)):
         # Resize to original size
         v2_transforms.Resize(img_size, antialias=True),
     ]
+    # Adding normalization
+    if norm_params is not None:
+        transform_list.append( 
+            v2_transforms.Normalize(
+                mean=norm_params["mean"], std=norm_params["std"], inplace=True
+            ),
+        )
     # End
     return v2_transforms.Compose(transform_list)
