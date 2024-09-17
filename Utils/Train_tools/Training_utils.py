@@ -144,6 +144,16 @@ def calc_metrics(y, y_pred, loss_fn, averaging="macro"):
     Returns:
         dict: A dictionary containing various evaluation metrics
     """
+    # Define a small epsilon value
+    epsilon = 1e-10
+
+    # Function to safely calculate a metric
+    def safe_metric_calculation(metric_fn, *args, **kwargs):
+        try:
+            return metric_fn(*args, **kwargs)
+        except Exception:
+            return epsilon
+
     # Convert tensors to numpy arrays
     y = y.numpy()
     y_pred = y_pred.numpy()
@@ -154,18 +164,26 @@ def calc_metrics(y, y_pred, loss_fn, averaging="macro"):
 
     # Calculating the metrics
     metrics_dict = {
-        "Loss": loss_fn(torch.tensor(y_pred), torch.tensor(y)).item(),
-        f"F1 Score ({averaging})": f1_score(y_labels, y_pred_labels, average=averaging),
-        f"Precision ({averaging})": precision_score(
-            y_labels, y_pred_labels, average=averaging, zero_division=0
+        "Loss": safe_metric_calculation(
+            loss_fn, torch.tensor(y_pred), torch.tensor(y)
+        ).item(),
+        f"F1 Score ({averaging})": safe_metric_calculation(
+            f1_score, y_labels, y_pred_labels, average=averaging
         ),
-        f"Recall ({averaging})": recall_score(
-            y_labels, y_pred_labels, average=averaging
+        f"Precision ({averaging})": safe_metric_calculation(
+            precision_score, y_labels, y_pred_labels, average=averaging, zero_division=0
         ),
-        "AUROC": roc_auc_score(y, y_pred, multi_class="ovr"),
-        "Accuracy": accuracy_score(y_labels, y_pred_labels),
-        "Cohen's Kappa": cohen_kappa_score(y_labels, y_pred_labels),
-        "Matthews Correlation Coefficient": matthews_corrcoef(y_labels, y_pred_labels),
+        f"Recall ({averaging})": safe_metric_calculation(
+            recall_score, y_labels, y_pred_labels, average=averaging
+        ),
+        "AUROC": safe_metric_calculation(roc_auc_score, y, y_pred, multi_class="ovr"),
+        "Accuracy": safe_metric_calculation(accuracy_score, y_labels, y_pred_labels),
+        "Cohen's Kappa": safe_metric_calculation(
+            cohen_kappa_score, y_labels, y_pred_labels
+        ),
+        "Matthews Correlation Coefficient": safe_metric_calculation(
+            matthews_corrcoef, y_labels, y_pred_labels
+        ),
     }
 
     return metrics_dict

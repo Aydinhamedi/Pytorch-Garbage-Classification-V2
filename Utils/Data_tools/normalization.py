@@ -4,43 +4,32 @@ import numpy as np
 
 # Funcs >>>
 def calculate_normalization_params(images, batch_size=32):
-    """
-    Compute the mean and standard deviation of a dataset of images in batches.
-
-    Parameters:
-    images (numpy.ndarray): A numpy array of images with shape (n, H, W, C) where
-                            n is the number of images, H is the height, W is the width,
-                            and C is the number of channels. Supports both RGB (C=3) and
-                            grayscale (C=1) images.
-    batch_size (int): The number of images to process in each batch.
-
-    Returns:
-    tuple: A tuple containing the mean and standard deviation of the dataset.
-    """
     if images.ndim == 3:
-        # If grayscale images with shape (n, H, W), add a channel dimension
         images = np.expand_dims(images, axis=-1)
 
     num_images, height, width, channels = images.shape
     mean = np.zeros(channels)
-    variance = np.zeros(channels)
+    squared_mean = np.zeros(channels)
     num_pixels = 0
 
     for i in range(0, num_images, batch_size):
         batch = images[i : i + batch_size]
-        batch_mean = np.mean(batch, axis=(0, 1, 2))
-        batch_variance = np.var(batch, axis=(0, 1, 2))
-        batch_pixels = batch.shape[0] * height * width
+        batch = batch.reshape(-1, channels)
+        batch_mean = np.mean(batch, axis=0)
+        batch_squared_mean = np.mean(np.square(batch), axis=0)
+        batch_pixels = batch.shape[0]
 
         mean += batch_mean * batch_pixels
-        variance += batch_variance * batch_pixels
+        squared_mean += batch_squared_mean * batch_pixels
         num_pixels += batch_pixels
 
     mean /= num_pixels
-    variance /= num_pixels
-    std = np.sqrt(variance)
+    squared_mean /= num_pixels
+
+    std = np.sqrt(squared_mean - np.square(mean))
 
     return {"mean": mean, "std": std}
+
 
 
 def normalize_image(image, norm_params):
