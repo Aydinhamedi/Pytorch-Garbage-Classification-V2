@@ -57,9 +57,9 @@ def rgb_augmentation_transform(magnitude=10, img_size=(224, 224), norm_params=No
             degrees=magnitude * 4,
             expand=False,
             fill=(
-                random.randint(25, 230),
-                random.randint(25, 230),
-                random.randint(25, 230),
+                random.randint(25, 200),
+                random.randint(25, 200),
+                random.randint(25, 200),
             ),
         ),
         # v2_transforms.ElasticTransform(alpha=magnitude / 2, sigma=12 - magnitude / 4.4), # Makes the process slower

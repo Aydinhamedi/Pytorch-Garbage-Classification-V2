@@ -145,6 +145,11 @@ class Reporter:
         self.train_history = history
         # End
 
+    def Del_Report(self):
+        """Deletes the training report, including the training parameters and history."""
+        del self
+        # End
+    
     def Save_Report(self):
         """
         Saves the training report, including the training parameters and history, to JSON files in the specified save directory.

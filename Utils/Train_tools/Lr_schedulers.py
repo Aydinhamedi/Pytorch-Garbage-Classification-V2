@@ -1,5 +1,6 @@
 # Libs >>>
 import os
+import math
 import copy
 import torch
 import matplotlib.pyplot as plt
@@ -15,7 +16,7 @@ def CosineAnnealingLR_Warmup(
     lr_main_min,
     lr_final_min,
     warmup_start=0.05,
-    warmup_type="linear",
+    warmup_type="exponential",
 ):
     """
     Creates a learning rate scheduler that combines a warmup phase, a cosine annealing phase, and a linear decay phase.
@@ -28,7 +29,7 @@ def CosineAnnealingLR_Warmup(
         lr_main_min (float): The minimum learning rate after the cosine annealing phase.
         lr_final_min (float): The final minimum learning rate after the linear decay phase.
         warmup_start (float, optional): The starting factor for the warmup phase. Default is 0.008.
-        warmup_type (str, optional): The only option is "linear" other options not implemented yet.
+        warmup_type (str, optional): "linear" or "exponential". Default is "exponential".
     Returns:
         torch.optim.lr_scheduler.SequentialLR: A combined learning rate scheduler with warmup, cosine annealing, and linear decay phases.
 
@@ -40,7 +41,20 @@ def CosineAnnealingLR_Warmup(
                 optimizer,
                 lr_lambda=lambda step: warmup_start
                 + (1 - warmup_start) * min(step / warmup_iters, 1.0),
-            ) # I didnt used LinearLR because it was buggy 
+            )  # I didnt used LinearLR because it was buggy
+        case "exponential":
+            lr_scheduler_warmup = torch.optim.lr_scheduler.LambdaLR(
+                optimizer,
+                lr_lambda=lambda step: (
+                    (optimizer.param_groups[0]["lr"] * warmup_start)
+                    * (
+                        optimizer.param_groups[0]["lr"]
+                        / (optimizer.param_groups[0]["lr"] * warmup_start)
+                    )
+                    ** min(step / warmup_iters, 1)
+                )
+                / optimizer.param_groups[0]["lr"],
+            )
         case _:
             raise NotImplementedError
     # Linear decay phase
@@ -102,7 +116,7 @@ def Profile(
             if key == "lr":
                 profile_data[key].append(cloned_scheduler.get_last_lr())
             elif key in cloned_scheduler.optimizer.defaults:
-                profile_data[key].append(cloned_scheduler.optimizer.defaults[key])
+                profile_data[key].append(cloned_scheduler.optimizer.state_dict()["param_groups"][0][key])
 
     if show_plot or save_plot:
         num_plots = len(monitor)
@@ -147,13 +161,24 @@ if __name__ == "__main__" and Do_Profile:
     # Define the learning rate scheduler to be profiled
     lr_scheduler = CosineAnnealingLR_Warmup(  # Very similar to the onecycleLR
         optimizer,
-        warmup_iters=18,
-        main_iters=71,
-        lr_idling_iters=21,
-        decay_iters=128,
-        lr_main_min=0.006,
-        lr_final_min=0.002,
-        warmup_start=0.03,
+        warmup_iters=10,
+        main_iters=60,
+        lr_idling_iters=12,
+        decay_iters=146,
+        lr_main_min=0.006,  # 0.006
+        lr_final_min=0.004,  # 0.002
+        warmup_start=0.07,
+    )
+    
+    lr_scheduler = torch.optim.lr_scheduler.OneCycleLR(
+        optimizer,
+        three_phase=True,
+        cycle_momentum=True,
+        max_lr=0.0075,
+        epochs=256,
+        pct_start=0.15,
+        final_div_factor=50,
+        steps_per_epoch=1,
     )
     # Profile the learning rate scheduler
-    Profile(lr_scheduler, 256, show_plot=True)
+    Profile(lr_scheduler, 256, show_plot=True, save_plot=False, monitor=["lr", "momentum"])
