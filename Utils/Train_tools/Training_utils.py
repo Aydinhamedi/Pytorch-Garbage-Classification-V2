@@ -131,6 +131,18 @@ def EarlyStopping_LoadBest(model, Cache_dict, verbose=True):
     # End
     return None
 
+def loss_reduction(loss_fn, y_pred, y):
+    # Check if the loss function has a reduction attribute
+    if hasattr(loss_fn, 'reduction') and loss_fn.reduction == 'none':
+        # Calculate individual losses
+        losses = loss_fn(y_pred, y)
+        # Apply reduction to get a single scalar value
+        loss = losses.mean()
+    else:
+        # Calculate the loss directly
+        loss = loss_fn(y_pred, y)
+    
+    return loss
 
 def calc_metrics(y, y_pred, loss_fn, averaging="macro"):
     """
@@ -165,7 +177,7 @@ def calc_metrics(y, y_pred, loss_fn, averaging="macro"):
     # Calculating the metrics
     metrics_dict = {
         "Loss": safe_metric_calculation(
-            loss_fn, torch.tensor(y_pred), torch.tensor(y)
+            loss_reduction, loss_fn, torch.tensor(y_pred), torch.tensor(y)
         ).item(),
         f"F1 Score ({averaging})": safe_metric_calculation(
             f1_score, y_labels, y_pred_labels, average=averaging
