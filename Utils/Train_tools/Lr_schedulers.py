@@ -106,7 +106,7 @@ def Profile(
         dict: A dictionary containing the monitored parameters over iterations.
     """
     # Clone the learning rate scheduler to avoid modifying the original one
-    cloned_scheduler = copy.deepcopy(lr_scheduler)
+    cloned_scheduler = copy.copy(lr_scheduler)
 
     profile_data = {key: [] for key in monitor}
 
