@@ -105,8 +105,16 @@ def Profile(
     Returns:
         dict: A dictionary containing the monitored parameters over iterations.
     """
+    # make a var to store the flags
+    flags = []
+    
     # Clone the learning rate scheduler to avoid modifying the original one
-    cloned_scheduler = copy.copy(lr_scheduler)
+    try:
+        cloned_scheduler = copy.deepcopy(lr_scheduler)
+    except Exception as e:
+        print(f"Error: Failed to deep copy the learning rate scheduler: {e}")
+        flags.append("deepcopy-fail")
+        cloned_scheduler = copy.copy(lr_scheduler)
 
     profile_data = {key: [] for key in monitor}
 
@@ -144,7 +152,7 @@ def Profile(
         else:
             plt.close()
 
-    return profile_data
+    return {"profile data": profile_data, "flags": flags}
 
 
 # Optional Profile (You can use this to profile and tune the scheduler)
