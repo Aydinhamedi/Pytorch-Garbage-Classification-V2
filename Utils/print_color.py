@@ -3,6 +3,8 @@ import re
 import colorama
 from typing import Optional
 
+# Conf >>>
+print_sig = ""
 
 # Main >>>
 class ColorAttributeError(Exception):
@@ -13,7 +15,12 @@ class ColorAttributeError(Exception):
         self.message = message
         super().__init__(f"{message}: {attr}")
 
-
+def set_sig(sig):
+    # Loading the global print sig var and setting it to the input argument.
+    global print_sig
+    print_sig = sig
+    # End
+    
 def print_colored(
     text: str, reset: bool = True, return_string: bool = False, end: str = "\n"
 ) -> Optional[str]:
@@ -32,7 +39,25 @@ def print_colored(
 
     Raises:
         ColorAttributeError: If a Colorama attribute in the text is not found.
+
+    Examples:
+        >>> print_colored("This is a <Fore.RED>red text")
+        This is a red text
+        >>> print_colored("<t.warn>This is a warning.")
+        'Warning: warning message'
     """
+    # Initialize Colorama + load the global print sig var
+    global print_sig
+
+    # Defining the keywords
+    keywords = {
+        "warn": f"{colorama.Style.BRIGHT}{colorama.Fore.RED}Warning:{colorama.Style.RESET_ALL}{colorama.Fore.YELLOW} ",
+        "err": f"{colorama.Style.BRIGHT}{colorama.Fore.RED}Error:{colorama.Style.RESET_ALL}{colorama.Fore.RED} ",
+        "info": f"{colorama.Style.BRIGHT}{colorama.Fore.LIGHTBLUE_EX}Info:{colorama.Style.RESET_ALL}{colorama.Fore.WHITE} ",
+        "debug": f"{colorama.Style.BRIGHT}{colorama.Fore.CYAN}Debug:{colorama.Style.RESET_ALL}{colorama.Fore.WHITE} ",
+        "reset": colorama.Style.RESET_ALL,
+    }
+
     # Handle escaped '<' and '>'
     text = text.replace(r"\<", "<").replace(r"\>", ">")
 
@@ -41,21 +66,25 @@ def print_colored(
 
     # Replace custom attributes with Colorama attributes
     for module_name, attr_name in matches:
-        # Check if the module and attribute exist in Colorama
-        if hasattr(colorama, module_name) and hasattr(
-            getattr(colorama, module_name), attr_name
-        ):
-            color_attr = getattr(getattr(colorama, module_name), attr_name)
-            text = text.replace(f"<{module_name}.{attr_name}>", color_attr)
+        if module_name == "t":
+            if attr_name in keywords:
+                text = text.replace(f"<{module_name}.{attr_name}>", keywords[attr_name])
+            else:
+                raise ColorAttributeError(f"{module_name}.{attr_name}")
         else:
-            raise ColorAttributeError(f"{module_name}.{attr_name}")
+            # Check if the module and attribute exist in Colorama
+            try:
+                color_attr = getattr(getattr(colorama, module_name), attr_name)
+                text = text.replace(f"<{module_name}.{attr_name}>", color_attr)
+            except AttributeError:
+                raise ColorAttributeError(f"{module_name}.{attr_name}")
 
-    # Check if reset is True, append the reset code
+    # If reset is True, append the reset code
     if reset:
         text += colorama.Style.RESET_ALL
 
-    # Add the end seq
-    text += end
+    # Add the end sequence + print sig
+    text = ''.join((print_sig , text, end))
 
     # If return_string is True, return the color-coded string
     if return_string:
@@ -63,3 +92,9 @@ def print_colored(
 
     # Otherwise, print the color-coded string
     print(text, end="")
+
+
+# Example usage
+if __name__ == "__main__":
+    print_colored("This is a <Fore.RED>red text")
+    print(print_colored("<t.warn>This is a warning.", return_string=True))

@@ -1,10 +1,10 @@
 # Libs >>>
 import os
-import math
 import copy
 import torch
 import matplotlib.pyplot as plt
-
+from ..print_color import (print_colored as cprint, set_sig as set_print_sig)
+from ..func_sig import Make_print_sig
 
 # Funcs >>>
 def CosineAnnealingLR_Warmup(
@@ -105,6 +105,9 @@ def Profile(
     Returns:
         dict: A dictionary containing the monitored parameters over iterations.
     """
+    # Prep 
+    set_print_sig(Make_print_sig(color="Fore.CYAN"))
+    
     # make a var to store the flags
     flags = []
     
@@ -112,7 +115,7 @@ def Profile(
     try:
         cloned_scheduler = copy.deepcopy(lr_scheduler)
     except Exception as e:
-        print(f"Error: Failed to deep copy the learning rate scheduler: {e}")
+        cprint(f" <t.warn>Failed to deep copy the learning rate scheduler: {e}")
         flags.append("deepcopy-fail")
         cloned_scheduler = copy.copy(lr_scheduler)
 
@@ -151,7 +154,8 @@ def Profile(
             plt.show()
         else:
             plt.close()
-
+    # End 
+    set_print_sig("")
     return {"profile data": profile_data, "flags": flags}
 
 
