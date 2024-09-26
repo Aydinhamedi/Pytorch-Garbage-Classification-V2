@@ -88,7 +88,7 @@ def EarlyStopping(
         # check the patience
         if Epoch - ES_Cache_dict["Best_results"]["Epoch"] >= patience:
             cprint(
-                f"{print_sig} <Fore.YELLOW>Early Stopping: <Fore.RED>Patience exceeded"
+                f"{print_sig} <Fore.RED>Patience exceeded."
             ) if verbose else None
             # Loading the best model from cache
             cprint(

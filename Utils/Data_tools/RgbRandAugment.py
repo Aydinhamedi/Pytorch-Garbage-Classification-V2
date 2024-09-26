@@ -48,11 +48,12 @@ def rgb_augmentation_transform(magnitude=10, img_size=(224, 224), norm_params=No
 
     # Calculate probabilities for static transforms
     prob = min(magnitude / 12.0, 0.5)
-
+    prob_Geo = min(magnitude / 10.0, 0.5)
+    
     Augment_transformes = [
         # Geometric transforms ----------------------------------------------
-        v2_transforms.RandomVerticalFlip(p=prob),
-        v2_transforms.RandomHorizontalFlip(p=prob),
+        v2_transforms.RandomVerticalFlip(p=prob_Geo),
+        v2_transforms.RandomHorizontalFlip(p=prob_Geo),
         v2_transforms.RandomRotation(
             degrees=magnitude * 4,
             expand=False,
@@ -67,7 +68,7 @@ def rgb_augmentation_transform(magnitude=10, img_size=(224, 224), norm_params=No
             target_size=img_size, scale_range=(1 - (magnitude / 60), 1)
         ),
         v2_transforms.RandomApply(
-            torch.nn.ModuleList([get_scaling_random_crop(magnitude, img_size)]), p=prob
+            torch.nn.ModuleList([get_scaling_random_crop(magnitude, img_size)]), p=prob_Geo
         ),
         # Photometric transforms ----------------------------------------------
         v2_transforms.RandomErasing(
