@@ -47,7 +47,7 @@ def rgb_augmentation_transform(magnitude=10, img_size=(224, 224), norm_params=No
     magnitude = max(0.5, min(magnitude, 30))
 
     # Calculate probabilities for static transforms
-    prob = min(magnitude / 12.0, 0.5)
+    prob = min(magnitude / 15.0, 0.5)
     prob_Geo = min(magnitude / 10.0, 0.5)
     
     Augment_transformes = [
@@ -74,7 +74,7 @@ def rgb_augmentation_transform(magnitude=10, img_size=(224, 224), norm_params=No
         v2_transforms.RandomErasing(
             scale=(0.005, 0.005 + magnitude / 512), value="random", p=prob
         ),
-        v2_transforms.RandomInvert(p=prob),
+        v2_transforms.RandomInvert(p=(prob if magnitude > 5 else 0)), # Disable it for low magnitude
         v2_transforms.RandomApply(
             torch.nn.ModuleList([v2_transforms.RandomChannelPermutation()]), p=prob
         ),
