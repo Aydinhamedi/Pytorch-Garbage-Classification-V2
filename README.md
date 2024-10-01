@@ -13,6 +13,10 @@ A Pytorch project for garbage classification using the **EfficientNet-B6** model
 ## 😉 Bonus
 This project is not hard coded for this specific dataset, so it can be used for any image classification task and it has all the necessary tools to train a model from scratch and more. **(I will make a pytorch classification template soon)**
 
+## 📦 Release
+> ### Newest release 📃
+> #### [Go to newest release](https://github.com/Aydinhamedi/Pytorch-Garbage-Classification-V2/releases/latest)
+
 ## 📂 Dataset
 
 The dataset used for this project is the [Garbage Classification](https://www.kaggle.com/datasets/asdasdasasdas/garbage-classification) from Kaggle. It contains images of garbage, divided into six categories.
