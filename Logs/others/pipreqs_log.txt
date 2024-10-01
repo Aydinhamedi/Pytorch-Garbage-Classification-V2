@@ -1,0 +1,78 @@
+DEBUG: Applying preprocessor: TagRemovePreprocessor
+DEBUG: Applying preprocessor: RegexRemovePreprocessor
+DEBUG: Attempting to load template index.py.j2
+DEBUG:     template_paths: E:\Dev Main\Side project\Pytorch Garbage Classification V2\.venv\share\jupyter\nbconvert\templates\python;E:\Dev Main\Side project\Pytorch Garbage Classification V2\.venv\share\jupyter\nbconvert\templates\base;E:\Dev Main\Side project\Pytorch Garbage Classification V2\.venv\share\jupyter;E:\Dev Main\Side project\Pytorch Garbage Classification V2\.venv\share\jupyter\nbconvert\templates;E:\Dev Main\Side project\Pytorch Garbage Classification V2\.venv\share\jupyter\nbconvert\templates\compatibility;C:\Users\aydin\AppData\Roaming\jupyter;C:\Users\aydin\AppData\Roaming\jupyter\nbconvert\templates;C:\Users\aydin\AppData\Roaming\jupyter\nbconvert\templates\compatibility;C:\ProgramData\jupyter;C:\ProgramData\jupyter\nbconvert\templates;C:\ProgramData\jupyter\nbconvert\templates\compatibility;E:\Dev Main\Side project\Pytorch Garbage Classification V2\.venv\share\jupyter\nbconvert\templates
+DEBUG: Template paths:
+	E:\Dev Main\Side project\Pytorch Garbage Classification V2\.venv\share\jupyter\nbconvert\templates\python
+	E:\Dev Main\Side project\Pytorch Garbage Classification V2\.venv\share\jupyter\nbconvert\templates\base
+	E:\Dev Main\Side project\Pytorch Garbage Classification V2\.venv\share\jupyter
+	E:\Dev Main\Side project\Pytorch Garbage Classification V2\.venv\share\jupyter\nbconvert\templates
+	E:\Dev Main\Side project\Pytorch Garbage Classification V2\.venv\share\jupyter\nbconvert\templates\compatibility
+	C:\Users\aydin\AppData\Roaming\jupyter
+	C:\Users\aydin\AppData\Roaming\jupyter\nbconvert\templates
+	C:\Users\aydin\AppData\Roaming\jupyter\nbconvert\templates\compatibility
+	C:\ProgramData\jupyter
+	C:\ProgramData\jupyter\nbconvert\templates
+	C:\ProgramData\jupyter\nbconvert\templates\compatibility
+	E:\Dev Main\Side project\Pytorch Garbage Classification V2\.venv\share\jupyter\nbconvert\templates
+DEBUG: Found packages: {'cv2', 're', 'torchcam', 'random', 'datetime', 'concurrent', 'shutil', 'ast', 'json', 'seaborn', 'pytorch_optimizer', 'tqdm', 'os', 'timm', 'copy', 'sklearn', 'sys', 'typing', 'torchinfo', 'numpy', 'time', 'numba', 'tabulate', 'inspect', 'gc', 'torch', 'matplotlib', 'functools', 'multiprocessing', 'warnings', 'textwrap', 'glob', 'PIL', 'torchvision', 'colorama', 'tarfile', 'subprocess', 'efficientnet_pytorch'}
+DEBUG: Found imports: colorama, cv2, efficientnet_pytorch, matplotlib, numba, numpy, Pillow, pytorch_optimizer, scikit_learn, seaborn, tabulate, timm, torch, torchcam, torchinfo, torchvision, tqdm
+DEBUG: Getting packages information from Local/PyPI
+WARNING: Import named "colorama" not found locally. Trying to resolve it at the PyPI server.
+DEBUG: Starting new HTTPS connection (1): pypi.python.org:443
+DEBUG: https://pypi.python.org:443 "GET /pypi/colorama/json HTTP/11" 301 122
+DEBUG: Starting new HTTPS connection (1): pypi.org:443
+DEBUG: https://pypi.org:443 "GET /pypi/colorama/json HTTP/11" 200 21501
+WARNING: Import named "colorama" was resolved to "colorama:0.4.6" package (https://pypi.org/project/colorama/).
+Please, verify manually the final list of requirements.txt to avoid possible dependency confusions.
+WARNING: Import named "matplotlib" not found locally. Trying to resolve it at the PyPI server.
+DEBUG: Starting new HTTPS connection (1): pypi.python.org:443
+DEBUG: https://pypi.python.org:443 "GET /pypi/matplotlib/json HTTP/11" 301 122
+DEBUG: Starting new HTTPS connection (1): pypi.org:443
+DEBUG: https://pypi.org:443 "GET /pypi/matplotlib/json HTTP/11" 200 294722
+WARNING: Import named "matplotlib" was resolved to "matplotlib:3.9.2" package (https://pypi.org/project/matplotlib/).
+Please, verify manually the final list of requirements.txt to avoid possible dependency confusions.
+WARNING: Import named "numpy" not found locally. Trying to resolve it at the PyPI server.
+DEBUG: Starting new HTTPS connection (1): pypi.python.org:443
+DEBUG: https://pypi.python.org:443 "GET /pypi/numpy/json HTTP/11" 301 122
+DEBUG: Starting new HTTPS connection (1): pypi.org:443
+DEBUG: https://pypi.org:443 "GET /pypi/numpy/json HTTP/11" 200 397973
+WARNING: Import named "numpy" was resolved to "numpy:2.1.1" package (https://pypi.org/project/numpy/).
+Please, verify manually the final list of requirements.txt to avoid possible dependency confusions.
+WARNING: Import named "Pillow" not found locally. Trying to resolve it at the PyPI server.
+DEBUG: Starting new HTTPS connection (1): pypi.python.org:443
+DEBUG: https://pypi.python.org:443 "GET /pypi/Pillow/json HTTP/11" 301 122
+DEBUG: Starting new HTTPS connection (1): pypi.org:443
+DEBUG: https://pypi.org:443 "GET /pypi/pillow/json HTTP/11" 200 455499
+WARNING: Import named "Pillow" was resolved to "pillow:10.4.0" package (https://pypi.org/project/pillow/).
+Please, verify manually the final list of requirements.txt to avoid possible dependency confusions.
+WARNING: Import named "pytorch_optimizer" not found locally. Trying to resolve it at the PyPI server.
+DEBUG: Starting new HTTPS connection (1): pypi.python.org:443
+DEBUG: https://pypi.python.org:443 "GET /pypi/pytorch_optimizer/json HTTP/11" 301 122
+DEBUG: Starting new HTTPS connection (1): pypi.org:443
+DEBUG: https://pypi.org:443 "GET /pypi/pytorch-optimizer/json HTTP/11" 200 32676
+WARNING: Import named "pytorch_optimizer" was resolved to "pytorch_optimizer:3.1.2" package (https://pypi.org/project/pytorch_optimizer/).
+Please, verify manually the final list of requirements.txt to avoid possible dependency confusions.
+WARNING: Import named "scikit_learn" not found locally. Trying to resolve it at the PyPI server.
+DEBUG: Starting new HTTPS connection (1): pypi.python.org:443
+DEBUG: https://pypi.python.org:443 "GET /pypi/scikit_learn/json HTTP/11" 301 122
+DEBUG: Starting new HTTPS connection (1): pypi.org:443
+DEBUG: https://pypi.org:443 "GET /pypi/scikit-learn/json HTTP/11" 200 182068
+WARNING: Import named "scikit_learn" was resolved to "scikit-learn:1.5.2" package (https://pypi.org/project/scikit-learn/).
+Please, verify manually the final list of requirements.txt to avoid possible dependency confusions.
+WARNING: Import named "seaborn" not found locally. Trying to resolve it at the PyPI server.
+DEBUG: Starting new HTTPS connection (1): pypi.python.org:443
+DEBUG: https://pypi.python.org:443 "GET /pypi/seaborn/json HTTP/11" 301 122
+DEBUG: Starting new HTTPS connection (1): pypi.org:443
+DEBUG: https://pypi.org:443 "GET /pypi/seaborn/json HTTP/11" 200 11733
+WARNING: Import named "seaborn" was resolved to "seaborn:0.13.2" package (https://pypi.org/project/seaborn/).
+Please, verify manually the final list of requirements.txt to avoid possible dependency confusions.
+WARNING: Import named "timm" not found locally. Trying to resolve it at the PyPI server.
+DEBUG: Starting new HTTPS connection (1): pypi.python.org:443
+DEBUG: https://pypi.python.org:443 "GET /pypi/timm/json HTTP/11" 301 122
+DEBUG: Starting new HTTPS connection (1): pypi.org:443
+DEBUG: https://pypi.org:443 "GET /pypi/timm/json HTTP/11" 200 31626
+WARNING: Import named "timm" was resolved to "timm:1.0.9" package (https://pypi.org/project/timm/).
+Please, verify manually the final list of requirements.txt to avoid possible dependency confusions.
+DEBUG: Writing 19 requirements: colorama, efficientnet_pytorch, matplotlib, numba, numpy, opencv_python, Pillow, pytorch_optimizer, scikit_learn, seaborn, tabulate, timm, torch, torch, torchcam, torchinfo, torchvision, torchvision, tqdm to .\requirements.txt
+INFO: Successfully saved requirements file in .\requirements.txt

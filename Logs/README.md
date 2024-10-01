@@ -1,0 +1,1 @@
+Here the logs for the training process (Tensorboard) are stored.

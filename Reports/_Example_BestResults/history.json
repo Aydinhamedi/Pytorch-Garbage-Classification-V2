@@ -1,0 +1,2966 @@
+{
+    "Train": [
+        {
+            "Loss": 0.2329932451248169,
+            "F1 Score (macro)": 0.1375417525113134,
+            "Precision (macro)": 0.1431770772552223,
+            "Recall (macro)": 0.14657144760345506,
+            "AUROC": 0.5508852574800195,
+            "Accuracy": 0.15234375,
+            "Cohen's Kappa": -0.01825647041571954,
+            "Matthews Correlation Coefficient": -0.018640071500293228
+        },
+        {
+            "Loss": 0.2473645955324173,
+            "F1 Score (macro)": 0.23869046326856777,
+            "Precision (macro)": 0.24443741751653283,
+            "Recall (macro)": 0.24436260024476322,
+            "AUROC": 0.5922912039020637,
+            "Accuracy": 0.24609375,
+            "Cohen's Kappa": 0.09148079363036243,
+            "Matthews Correlation Coefficient": 0.09214077857998391
+        },
+        {
+            "Loss": 0.23920691013336182,
+            "F1 Score (macro)": 0.29739914718817667,
+            "Precision (macro)": 0.3038670995166584,
+            "Recall (macro)": 0.30893881559641084,
+            "AUROC": 0.6576745338754663,
+            "Accuracy": 0.3125,
+            "Cohen's Kappa": 0.17329957248490857,
+            "Matthews Correlation Coefficient": 0.17529855336774233
+        },
+        {
+            "Loss": 0.2225254476070404,
+            "F1 Score (macro)": 0.37882368728489785,
+            "Precision (macro)": 0.38684628237259816,
+            "Recall (macro)": 0.42251764941982334,
+            "AUROC": 0.7177375224031665,
+            "Accuracy": 0.38671875,
+            "Cohen's Kappa": 0.26498665008595146,
+            "Matthews Correlation Coefficient": 0.2697709060911988
+        },
+        {
+            "Loss": 0.2126254439353943,
+            "F1 Score (macro)": 0.5372649318559805,
+            "Precision (macro)": 0.5425331871879187,
+            "Recall (macro)": 0.5671308057746671,
+            "AUROC": 0.8136978345553425,
+            "Accuracy": 0.5546875,
+            "Cohen's Kappa": 0.4628184361655132,
+            "Matthews Correlation Coefficient": 0.46692271187477774
+        },
+        {
+            "Loss": 0.2084566205739975,
+            "F1 Score (macro)": 0.5316770280826709,
+            "Precision (macro)": 0.5496565021672625,
+            "Recall (macro)": 0.5685156124265043,
+            "AUROC": 0.846796886374809,
+            "Accuracy": 0.54296875,
+            "Cohen's Kappa": 0.4529714724038426,
+            "Matthews Correlation Coefficient": 0.46176657098583607
+        },
+        {
+            "Loss": 0.1859401911497116,
+            "F1 Score (macro)": 0.5953352498315535,
+            "Precision (macro)": 0.595641748602275,
+            "Recall (macro)": 0.6327406377315634,
+            "AUROC": 0.8936111684486004,
+            "Accuracy": 0.6171875,
+            "Cohen's Kappa": 0.536111830183795,
+            "Matthews Correlation Coefficient": 0.540919383796649
+        },
+        {
+            "Loss": 0.1547439843416214,
+            "F1 Score (macro)": 0.6865902090022077,
+            "Precision (macro)": 0.6978326684209039,
+            "Recall (macro)": 0.7444927088822437,
+            "AUROC": 0.9255290936708392,
+            "Accuracy": 0.71484375,
+            "Cohen's Kappa": 0.6548017067809446,
+            "Matthews Correlation Coefficient": 0.6635920665945872
+        },
+        {
+            "Loss": 0.1388063132762909,
+            "F1 Score (macro)": 0.6891720171214554,
+            "Precision (macro)": 0.7015158588688001,
+            "Recall (macro)": 0.7614828549895473,
+            "AUROC": 0.9275409725783957,
+            "Accuracy": 0.72265625,
+            "Cohen's Kappa": 0.6632140673349516,
+            "Matthews Correlation Coefficient": 0.6703576423825567
+        },
+        {
+            "Loss": 0.1246412917971611,
+            "F1 Score (macro)": 0.7641194971593063,
+            "Precision (macro)": 0.7604229180387828,
+            "Recall (macro)": 0.8230072379249918,
+            "AUROC": 0.9534782708003603,
+            "Accuracy": 0.78515625,
+            "Cohen's Kappa": 0.7382218421150486,
+            "Matthews Correlation Coefficient": 0.7445742941508889
+        },
+        {
+            "Loss": 0.11637087911367416,
+            "F1 Score (macro)": 0.80305291033305,
+            "Precision (macro)": 0.7904850470206323,
+            "Recall (macro)": 0.8376002046733754,
+            "AUROC": 0.9612817315846868,
+            "Accuracy": 0.80859375,
+            "Cohen's Kappa": 0.7654055469319818,
+            "Matthews Correlation Coefficient": 0.7666505936007594
+        },
+        {
+            "Loss": 0.11942724883556366,
+            "F1 Score (macro)": 0.8089843682807601,
+            "Precision (macro)": 0.7982099599696232,
+            "Recall (macro)": 0.8386709601873537,
+            "AUROC": 0.9535250632004103,
+            "Accuracy": 0.80859375,
+            "Cohen's Kappa": 0.7679958570688763,
+            "Matthews Correlation Coefficient": 0.770584569041655
+        },
+        {
+            "Loss": 0.10550251603126526,
+            "F1 Score (macro)": 0.8276345283414175,
+            "Precision (macro)": 0.8243487810427702,
+            "Recall (macro)": 0.8579862012586045,
+            "AUROC": 0.9701792816638859,
+            "Accuracy": 0.84765625,
+            "Cohen's Kappa": 0.8144927536231884,
+            "Matthews Correlation Coefficient": 0.8166307833572659
+        },
+        {
+            "Loss": 0.1005825400352478,
+            "F1 Score (macro)": 0.8542467197278335,
+            "Precision (macro)": 0.843256353264752,
+            "Recall (macro)": 0.8791123345890081,
+            "AUROC": 0.9763218739625542,
+            "Accuracy": 0.859375,
+            "Cohen's Kappa": 0.8284118413703221,
+            "Matthews Correlation Coefficient": 0.8294543504938049
+        },
+        {
+            "Loss": 0.10361263155937195,
+            "F1 Score (macro)": 0.8662580070428619,
+            "Precision (macro)": 0.8673789605390878,
+            "Recall (macro)": 0.8802852277564922,
+            "AUROC": 0.9756550343795615,
+            "Accuracy": 0.8671875,
+            "Cohen's Kappa": 0.8382276410675786,
+            "Matthews Correlation Coefficient": 0.8414213833799827
+        },
+        {
+            "Loss": 0.09834669530391693,
+            "F1 Score (macro)": 0.8368507169068966,
+            "Precision (macro)": 0.8263702387823927,
+            "Recall (macro)": 0.8625833598951343,
+            "AUROC": 0.9796699647466399,
+            "Accuracy": 0.84375,
+            "Cohen's Kappa": 0.8091972870239249,
+            "Matthews Correlation Coefficient": 0.8105618853175589
+        },
+        {
+            "Loss": 0.10157065838575363,
+            "F1 Score (macro)": 0.8761109200580023,
+            "Precision (macro)": 0.8716337285902503,
+            "Recall (macro)": 0.8869077212621316,
+            "AUROC": 0.9778349200574842,
+            "Accuracy": 0.8828125,
+            "Cohen's Kappa": 0.8578120082202433,
+            "Matthews Correlation Coefficient": 0.8583870552707887
+        },
+        {
+            "Loss": 0.0925930067896843,
+            "F1 Score (macro)": 0.8949892675136887,
+            "Precision (macro)": 0.8883253883253883,
+            "Recall (macro)": 0.907874357225054,
+            "AUROC": 0.9812823821179605,
+            "Accuracy": 0.8984375,
+            "Cohen's Kappa": 0.8763262045002694,
+            "Matthews Correlation Coefficient": 0.8768333025516432
+        },
+        {
+            "Loss": 0.08594287931919098,
+            "F1 Score (macro)": 0.9049504014613418,
+            "Precision (macro)": 0.8884781872455095,
+            "Recall (macro)": 0.9372797014787002,
+            "AUROC": 0.9889471396908242,
+            "Accuracy": 0.921875,
+            "Cohen's Kappa": 0.9038443480383871,
+            "Matthews Correlation Coefficient": 0.9049348325698049
+        },
+        {
+            "Loss": 0.09229844063520432,
+            "F1 Score (macro)": 0.9145960672373715,
+            "Precision (macro)": 0.9085611045961409,
+            "Recall (macro)": 0.9266914339588759,
+            "AUROC": 0.9861550446482822,
+            "Accuracy": 0.91015625,
+            "Cohen's Kappa": 0.8899973844486792,
+            "Matthews Correlation Coefficient": 0.8913976009248851
+        },
+        {
+            "Loss": 0.08714156597852707,
+            "F1 Score (macro)": 0.9021655811077017,
+            "Precision (macro)": 0.8926301008220924,
+            "Recall (macro)": 0.9179581178007786,
+            "AUROC": 0.9893109088708826,
+            "Accuracy": 0.91015625,
+            "Cohen's Kappa": 0.8904272740806908,
+            "Matthews Correlation Coefficient": 0.891196473319771
+        },
+        {
+            "Loss": 0.08196667581796646,
+            "F1 Score (macro)": 0.9063364586390902,
+            "Precision (macro)": 0.8941670330686349,
+            "Recall (macro)": 0.9305790528771894,
+            "AUROC": 0.992836542070982,
+            "Accuracy": 0.91796875,
+            "Cohen's Kappa": 0.8993767196361391,
+            "Matthews Correlation Coefficient": 0.900142943898268
+        },
+        {
+            "Loss": 0.08054372668266296,
+            "F1 Score (macro)": 0.9627497732810464,
+            "Precision (macro)": 0.9563963697201924,
+            "Recall (macro)": 0.9704352104048152,
+            "AUROC": 0.9946290775002108,
+            "Accuracy": 0.96484375,
+            "Cohen's Kappa": 0.9564938252955172,
+            "Matthews Correlation Coefficient": 0.956566158770093
+        },
+        {
+            "Loss": 0.08407524228096008,
+            "F1 Score (macro)": 0.9461226882569153,
+            "Precision (macro)": 0.9398513926388491,
+            "Recall (macro)": 0.9550352503742335,
+            "AUROC": 0.9897514453348232,
+            "Accuracy": 0.9453125,
+            "Cohen's Kappa": 0.9333878522042971,
+            "Matthews Correlation Coefficient": 0.9338073740725171
+        },
+        {
+            "Loss": 0.08113835006952286,
+            "F1 Score (macro)": 0.9501302667895843,
+            "Precision (macro)": 0.9380679341511655,
+            "Recall (macro)": 0.9674320050701776,
+            "AUROC": 0.9946541455252765,
+            "Accuracy": 0.9609375,
+            "Cohen's Kappa": 0.951924882629108,
+            "Matthews Correlation Coefficient": 0.9520706676895777
+        },
+        {
+            "Loss": 0.07595475018024445,
+            "F1 Score (macro)": 0.9732395627527262,
+            "Precision (macro)": 0.9668178408587617,
+            "Recall (macro)": 0.9812200968836103,
+            "AUROC": 0.997772005985067,
+            "Accuracy": 0.9765625,
+            "Cohen's Kappa": 0.9713042016178751,
+            "Matthews Correlation Coefficient": 0.9714874954131012
+        },
+        {
+            "Loss": 0.08175764232873917,
+            "F1 Score (macro)": 0.9342505469918468,
+            "Precision (macro)": 0.9293505542508534,
+            "Recall (macro)": 0.9403733693207377,
+            "AUROC": 0.9952549722120118,
+            "Accuracy": 0.94921875,
+            "Cohen's Kappa": 0.9377000692637452,
+            "Matthews Correlation Coefficient": 0.937771263610626
+        },
+        {
+            "Loss": 0.0730900764465332,
+            "F1 Score (macro)": 0.9731047214809602,
+            "Precision (macro)": 0.9705362028392935,
+            "Recall (macro)": 0.9762475394329831,
+            "AUROC": 0.9982175131178522,
+            "Accuracy": 0.97265625,
+            "Cohen's Kappa": 0.9664890135577373,
+            "Matthews Correlation Coefficient": 0.9665614976825487
+        },
+        {
+            "Loss": 0.07486273348331451,
+            "F1 Score (macro)": 0.9818744035248219,
+            "Precision (macro)": 0.9799422799422799,
+            "Recall (macro)": 0.9843286462641302,
+            "AUROC": 0.997427328124692,
+            "Accuracy": 0.98046875,
+            "Cohen's Kappa": 0.9762134839812682,
+            "Matthews Correlation Coefficient": 0.9763593696248913
+        },
+        {
+            "Loss": 0.07798924297094345,
+            "F1 Score (macro)": 0.9582850313222381,
+            "Precision (macro)": 0.9520549886621317,
+            "Recall (macro)": 0.9661758501732352,
+            "AUROC": 0.9973074468291457,
+            "Accuracy": 0.95703125,
+            "Cohen's Kappa": 0.9471848156344949,
+            "Matthews Correlation Coefficient": 0.9474888951349597
+        },
+        {
+            "Loss": 0.07427003979682922,
+            "F1 Score (macro)": 0.9621789384424314,
+            "Precision (macro)": 0.9563711453182338,
+            "Recall (macro)": 0.9698486598756141,
+            "AUROC": 0.9975050280525171,
+            "Accuracy": 0.96484375,
+            "Cohen's Kappa": 0.9569514769903402,
+            "Matthews Correlation Coefficient": 0.9571129107063928
+        },
+        {
+            "Loss": 0.0735100507736206,
+            "F1 Score (macro)": 0.9580879040895168,
+            "Precision (macro)": 0.9472923136645962,
+            "Recall (macro)": 0.9735577625949065,
+            "AUROC": 0.998507123807196,
+            "Accuracy": 0.96875,
+            "Cohen's Kappa": 0.961352657004831,
+            "Matthews Correlation Coefficient": 0.9615545197466497
+        },
+        {
+            "Loss": 0.07671620696783066,
+            "F1 Score (macro)": 0.948901303703196,
+            "Precision (macro)": 0.9397319347319347,
+            "Recall (macro)": 0.9604317686670628,
+            "AUROC": 0.9974561030378956,
+            "Accuracy": 0.96484375,
+            "Cohen's Kappa": 0.956558628881724,
+            "Matthews Correlation Coefficient": 0.9567244078313963
+        },
+        {
+            "Loss": 0.07339087128639221,
+            "F1 Score (macro)": 0.9780290287989949,
+            "Precision (macro)": 0.9784802135661591,
+            "Recall (macro)": 0.9784116216123616,
+            "AUROC": 0.9979154361123549,
+            "Accuracy": 0.9765625,
+            "Cohen's Kappa": 0.9712843522153674,
+            "Matthews Correlation Coefficient": 0.971465974700273
+        },
+        {
+            "Loss": 0.06914471089839935,
+            "F1 Score (macro)": 0.987293570626904,
+            "Precision (macro)": 0.9817620650953985,
+            "Recall (macro)": 0.9935802469135803,
+            "AUROC": 0.9994299746289318,
+            "Accuracy": 0.9921875,
+            "Cohen's Kappa": 0.9903567258070591,
+            "Matthews Correlation Coefficient": 0.9903756462446197
+        },
+        {
+            "Loss": 0.0703001469373703,
+            "F1 Score (macro)": 0.984955578471638,
+            "Precision (macro)": 0.9820586820586822,
+            "Recall (macro)": 0.9883281168492436,
+            "AUROC": 0.9985907388747489,
+            "Accuracy": 0.984375,
+            "Cohen's Kappa": 0.9807112718505123,
+            "Matthews Correlation Coefficient": 0.9808422398003944
+        },
+        {
+            "Loss": 0.07315288484096527,
+            "F1 Score (macro)": 0.9818160431914436,
+            "Precision (macro)": 0.9821590091479083,
+            "Recall (macro)": 0.981689852700491,
+            "AUROC": 0.9992606173205786,
+            "Accuracy": 0.98046875,
+            "Cohen's Kappa": 0.9756695622422019,
+            "Matthews Correlation Coefficient": 0.9757252370011751
+        },
+        {
+            "Loss": 0.07202538102865219,
+            "F1 Score (macro)": 0.9788713657416322,
+            "Precision (macro)": 0.9728291316526612,
+            "Recall (macro)": 0.9858238636363637,
+            "AUROC": 0.998334622900355,
+            "Accuracy": 0.98046875,
+            "Cohen's Kappa": 0.9759158560219767,
+            "Matthews Correlation Coefficient": 0.9760648321586285
+        },
+        {
+            "Loss": 0.06797939538955688,
+            "F1 Score (macro)": 0.992748443967956,
+            "Precision (macro)": 0.9936886395511921,
+            "Recall (macro)": 0.9920634920634921,
+            "AUROC": 0.9996967988126843,
+            "Accuracy": 0.9921875,
+            "Cohen's Kappa": 0.9904516802804819,
+            "Matthews Correlation Coefficient": 0.9905072040290331
+        },
+        {
+            "Loss": 0.069008469581604,
+            "F1 Score (macro)": 0.9935944813993595,
+            "Precision (macro)": 0.9901960784313726,
+            "Recall (macro)": 0.9973118279569894,
+            "AUROC": 0.9995913328921496,
+            "Accuracy": 0.99609375,
+            "Cohen's Kappa": 0.9951654328448406,
+            "Matthews Correlation Coefficient": 0.995184586303897
+        },
+        {
+            "Loss": 0.06962829828262329,
+            "F1 Score (macro)": 0.9939312899476415,
+            "Precision (macro)": 0.9933333333333333,
+            "Recall (macro)": 0.9947076612903226,
+            "AUROC": 0.999654035847985,
+            "Accuracy": 0.9921875,
+            "Cohen's Kappa": 0.990259493189255,
+            "Matthews Correlation Coefficient": 0.9903161444349313
+        },
+        {
+            "Loss": 0.06876961886882782,
+            "F1 Score (macro)": 0.988679355579312,
+            "Precision (macro)": 0.9852392699293717,
+            "Recall (macro)": 0.9925373134328358,
+            "AUROC": 0.9990021711090282,
+            "Accuracy": 0.98828125,
+            "Cohen's Kappa": 0.9856865960936335,
+            "Matthews Correlation Coefficient": 0.9857980978447368
+        },
+        {
+            "Loss": 0.06804350763559341,
+            "F1 Score (macro)": 0.9865502124130212,
+            "Precision (macro)": 0.9840232389251997,
+            "Recall (macro)": 0.9896043771043771,
+            "AUROC": 0.9994890720191449,
+            "Accuracy": 0.98828125,
+            "Cohen's Kappa": 0.9855793604596579,
+            "Matthews Correlation Coefficient": 0.9856535171067937
+        },
+        {
+            "Loss": 0.0705341026186943,
+            "F1 Score (macro)": 0.9903383299101467,
+            "Precision (macro)": 0.9904450895016933,
+            "Recall (macro)": 0.9904219644785682,
+            "AUROC": 0.9991586254354651,
+            "Accuracy": 0.98828125,
+            "Cohen's Kappa": 0.9855391741512738,
+            "Matthews Correlation Coefficient": 0.9855948508355381
+        },
+        {
+            "Loss": 0.0717393308877945,
+            "F1 Score (macro)": 0.9610602061707633,
+            "Precision (macro)": 0.9479166666666666,
+            "Recall (macro)": 0.98406243501343,
+            "AUROC": 0.998346650359287,
+            "Accuracy": 0.98046875,
+            "Cohen's Kappa": 0.9759984999062441,
+            "Matthews Correlation Coefficient": 0.9762977366535455
+        },
+        {
+            "Loss": 0.06711190938949585,
+            "F1 Score (macro)": 0.992609547688494,
+            "Precision (macro)": 0.9924090757424091,
+            "Recall (macro)": 0.9929754510499853,
+            "AUROC": 0.999648467181878,
+            "Accuracy": 0.9921875,
+            "Cohen's Kappa": 0.9904861007878698,
+            "Matthews Correlation Coefficient": 0.9905229149896185
+        },
+        {
+            "Loss": 0.06889253854751587,
+            "F1 Score (macro)": 0.9858885722784891,
+            "Precision (macro)": 0.9853174603174603,
+            "Recall (macro)": 0.9866376935245916,
+            "AUROC": 0.9995180717327714,
+            "Accuracy": 0.984375,
+            "Cohen's Kappa": 0.9807951987996999,
+            "Matthews Correlation Coefficient": 0.9808320333597266
+        },
+        {
+            "Loss": 0.06778234243392944,
+            "F1 Score (macro)": 0.9803472456349464,
+            "Precision (macro)": 0.9759402887974318,
+            "Recall (macro)": 0.9855239855239856,
+            "AUROC": 0.999787334907571,
+            "Accuracy": 0.984375,
+            "Cohen's Kappa": 0.9807207139360621,
+            "Matthews Correlation Coefficient": 0.9807948839786174
+        },
+        {
+            "Loss": 0.0740334689617157,
+            "F1 Score (macro)": 0.9758430130169954,
+            "Precision (macro)": 0.9756399782135077,
+            "Recall (macro)": 0.976117224278989,
+            "AUROC": 0.9957409395758327,
+            "Accuracy": 0.98046875,
+            "Cohen's Kappa": 0.9759858917113804,
+            "Matthews Correlation Coefficient": 0.9760042109645957
+        },
+        {
+            "Loss": 0.06628477573394775,
+            "F1 Score (macro)": 0.9933602893570397,
+            "Precision (macro)": 0.9931972789115647,
+            "Recall (macro)": 0.9937250762373916,
+            "AUROC": 0.999747146855802,
+            "Accuracy": 0.9921875,
+            "Cohen's Kappa": 0.9904193409554461,
+            "Matthews Correlation Coefficient": 0.9904749602670672
+        },
+        {
+            "Loss": 0.06799294799566269,
+            "F1 Score (macro)": 0.9896577463045174,
+            "Precision (macro)": 0.9901548515065373,
+            "Recall (macro)": 0.9893205383771422,
+            "AUROC": 0.998909618379381,
+            "Accuracy": 0.98828125,
+            "Cohen's Kappa": 0.985493832990197,
+            "Matthews Correlation Coefficient": 0.9855310841549421
+        },
+        {
+            "Loss": 0.06686637550592422,
+            "F1 Score (macro)": 0.996620583717358,
+            "Precision (macro)": 0.9964539007092199,
+            "Recall (macro)": 0.9968553459119497,
+            "AUROC": 0.9998612767345479,
+            "Accuracy": 0.99609375,
+            "Cohen's Kappa": 0.9952214735034439,
+            "Matthews Correlation Coefficient": 0.9952400570148042
+        },
+        {
+            "Loss": 0.06566539406776428,
+            "F1 Score (macro)": 0.9887948930502123,
+            "Precision (macro)": 0.9892075238976257,
+            "Recall (macro)": 0.988476692732012,
+            "AUROC": 0.9996470015611231,
+            "Accuracy": 0.98828125,
+            "Cohen's Kappa": 0.9856357311188418,
+            "Matthews Correlation Coefficient": 0.985654174724957
+        },
+        {
+            "Loss": 0.06462985277175903,
+            "F1 Score (macro)": 0.9862929055735504,
+            "Precision (macro)": 0.9849248999495305,
+            "Recall (macro)": 0.9880432229269438,
+            "AUROC": 0.9997296118046798,
+            "Accuracy": 0.984375,
+            "Cohen's Kappa": 0.9805452645578038,
+            "Matthews Correlation Coefficient": 0.9806386485652038
+        },
+        {
+            "Loss": 0.06499376147985458,
+            "F1 Score (macro)": 0.9929828089935215,
+            "Precision (macro)": 0.9932881446039342,
+            "Recall (macro)": 0.9927398989898989,
+            "AUROC": 0.9999106632361349,
+            "Accuracy": 0.9921875,
+            "Cohen's Kappa": 0.990477961688674,
+            "Matthews Correlation Coefficient": 0.9904963965493834
+        },
+        {
+            "Loss": 0.06520947068929672,
+            "F1 Score (macro)": 0.992510253480931,
+            "Precision (macro)": 0.9918505267342477,
+            "Recall (macro)": 0.9932504677893611,
+            "AUROC": 0.9999336020725703,
+            "Accuracy": 0.9921875,
+            "Cohen's Kappa": 0.9903530919094095,
+            "Matthews Correlation Coefficient": 0.9903718155791249
+        },
+        {
+            "Loss": 0.06589330732822418,
+            "F1 Score (macro)": 0.9937681891982967,
+            "Precision (macro)": 0.9937106918238993,
+            "Recall (macro)": 0.9940029203170629,
+            "AUROC": 0.9979520998409329,
+            "Accuracy": 0.9921875,
+            "Cohen's Kappa": 0.9903753971088595,
+            "Matthews Correlation Coefficient": 0.9904312691461717
+        },
+        {
+            "Loss": 0.06537630409002304,
+            "F1 Score (macro)": 0.9860748085400789,
+            "Precision (macro)": 0.9821047008547009,
+            "Recall (macro)": 0.9904965949083596,
+            "AUROC": 0.9995986683723653,
+            "Accuracy": 0.98828125,
+            "Cohen's Kappa": 0.9856622794735368,
+            "Matthews Correlation Coefficient": 0.9856995301348433
+        },
+        {
+            "Loss": 0.06477281451225281,
+            "F1 Score (macro)": 0.9969390878481788,
+            "Precision (macro)": 0.9966666666666667,
+            "Recall (macro)": 0.9972677595628415,
+            "AUROC": 0.9998588204607289,
+            "Accuracy": 0.99609375,
+            "Cohen's Kappa": 0.9951623266185419,
+            "Matthews Correlation Coefficient": 0.9951811542186917
+        },
+        {
+            "Loss": 0.0649256706237793,
+            "F1 Score (macro)": 0.989063258005551,
+            "Precision (macro)": 0.9876994680851063,
+            "Recall (macro)": 0.9905268490374873,
+            "AUROC": 0.9995758254436865,
+            "Accuracy": 0.98828125,
+            "Cohen's Kappa": 0.9855135339054985,
+            "Matthews Correlation Coefficient": 0.9855323767686
+        },
+        {
+            "Loss": 0.06723083555698395,
+            "F1 Score (macro)": 0.9902757736091069,
+            "Precision (macro)": 0.987109658678286,
+            "Recall (macro)": 0.9937689261588633,
+            "AUROC": 0.9997365257002709,
+            "Accuracy": 0.9921875,
+            "Cohen's Kappa": 0.9904468700438473,
+            "Matthews Correlation Coefficient": 0.9904655740498415
+        },
+        {
+            "Loss": 0.06647229194641113,
+            "F1 Score (macro)": 0.985328097855834,
+            "Precision (macro)": 0.9863863297806891,
+            "Recall (macro)": 0.9846723044397464,
+            "AUROC": 0.9996224315082275,
+            "Accuracy": 0.984375,
+            "Cohen's Kappa": 0.9809133271202237,
+            "Matthews Correlation Coefficient": 0.9810048777258554
+        },
+        {
+            "Loss": 0.06423734128475189,
+            "F1 Score (macro)": 0.9962295275126664,
+            "Precision (macro)": 0.9952380952380953,
+            "Recall (macro)": 0.9973118279569894,
+            "AUROC": 0.9999162720172156,
+            "Accuracy": 0.99609375,
+            "Cohen's Kappa": 0.9951615951615952,
+            "Matthews Correlation Coefficient": 0.9951805336707429
+        },
+        {
+            "Loss": 0.06551248580217361,
+            "F1 Score (macro)": 0.9845087543544714,
+            "Precision (macro)": 0.9791785782351821,
+            "Recall (macro)": 0.9904633004574043,
+            "AUROC": 0.9997938653192394,
+            "Accuracy": 0.98828125,
+            "Cohen's Kappa": 0.9855342713454258,
+            "Matthews Correlation Coefficient": 0.9855533075587362
+        },
+        {
+            "Loss": 0.06462714076042175,
+            "F1 Score (macro)": 0.9667576668187063,
+            "Precision (macro)": 0.955734203739523,
+            "Recall (macro)": 0.9811650600413007,
+            "AUROC": 0.9998709439059431,
+            "Accuracy": 0.9765625,
+            "Cohen's Kappa": 0.9710603662672395,
+            "Matthews Correlation Coefficient": 0.9712089165853792
+        },
+        {
+            "Loss": 0.06450521945953369,
+            "F1 Score (macro)": 0.9924090757424091,
+            "Precision (macro)": 0.9924090757424091,
+            "Recall (macro)": 0.9924090757424091,
+            "AUROC": 0.9998287844883557,
+            "Accuracy": 0.9921875,
+            "Cohen's Kappa": 0.9903983197059485,
+            "Matthews Correlation Coefficient": 0.9903983197059485
+        },
+        {
+            "Loss": 0.0635623037815094,
+            "F1 Score (macro)": 0.9929816784869976,
+            "Precision (macro)": 0.9930555555555557,
+            "Recall (macro)": 0.9931972789115647,
+            "AUROC": 0.99976875307281,
+            "Accuracy": 0.9921875,
+            "Cohen's Kappa": 0.9903636226756004,
+            "Matthews Correlation Coefficient": 0.9904381877218223
+        },
+        {
+            "Loss": 0.06498925387859344,
+            "F1 Score (macro)": 0.9893170426065163,
+            "Precision (macro)": 0.9907407407407408,
+            "Recall (macro)": 0.9883976964769648,
+            "AUROC": 0.9996941487882731,
+            "Accuracy": 0.98828125,
+            "Cohen's Kappa": 0.9856905964114698,
+            "Matthews Correlation Coefficient": 0.9858193251825861
+        },
+        {
+            "Loss": 0.06455788016319275,
+            "F1 Score (macro)": 1.0,
+            "Precision (macro)": 1.0,
+            "Recall (macro)": 1.0,
+            "AUROC": 0.9999188851316384,
+            "Accuracy": 1.0,
+            "Cohen's Kappa": 1.0,
+            "Matthews Correlation Coefficient": 1.0
+        },
+        {
+            "Loss": 0.06419292092323303,
+            "F1 Score (macro)": 0.9960266780190151,
+            "Precision (macro)": 0.9959349593495935,
+            "Recall (macro)": 0.9962121212121212,
+            "AUROC": 0.9999106632361349,
+            "Accuracy": 0.99609375,
+            "Cohen's Kappa": 0.9952104770813844,
+            "Matthews Correlation Coefficient": 0.9952290984637828
+        },
+        {
+            "Loss": 0.06879016757011414,
+            "F1 Score (macro)": 0.9836514576742187,
+            "Precision (macro)": 0.9851851851851853,
+            "Recall (macro)": 0.983251633986928,
+            "AUROC": 0.9994742241494364,
+            "Accuracy": 0.984375,
+            "Cohen's Kappa": 0.9809923338221372,
+            "Matthews Correlation Coefficient": 0.981229112513925
+        },
+        {
+            "Loss": 0.06424825638532639,
+            "F1 Score (macro)": 0.9923535353535353,
+            "Precision (macro)": 0.9920370370370369,
+            "Recall (macro)": 0.9927248677248678,
+            "AUROC": 0.9999215039431686,
+            "Accuracy": 0.9921875,
+            "Cohen's Kappa": 0.9903741304756534,
+            "Matthews Correlation Coefficient": 0.9903927799622408
+        },
+        {
+            "Loss": 0.06266139447689056,
+            "F1 Score (macro)": 1.0,
+            "Precision (macro)": 1.0,
+            "Recall (macro)": 1.0,
+            "AUROC": 1.0,
+            "Accuracy": 1.0,
+            "Cohen's Kappa": 1.0,
+            "Matthews Correlation Coefficient": 1.0
+        },
+        {
+            "Loss": 0.06278347223997116,
+            "F1 Score (macro)": 0.9964904663699844,
+            "Precision (macro)": 0.996031746031746,
+            "Recall (macro)": 0.9970238095238094,
+            "AUROC": 1.0,
+            "Accuracy": 0.99609375,
+            "Cohen's Kappa": 0.9951960066805532,
+            "Matthews Correlation Coefficient": 0.9952147168267301
+        },
+        {
+            "Loss": 0.06309212744235992,
+            "F1 Score (macro)": 0.9961295933898674,
+            "Precision (macro)": 0.9954954954954954,
+            "Recall (macro)": 0.9968553459119497,
+            "AUROC": 0.9999535272794869,
+            "Accuracy": 0.99609375,
+            "Cohen's Kappa": 0.9952015894734869,
+            "Matthews Correlation Coefficient": 0.9952202884307885
+        },
+        {
+            "Loss": 0.063283771276474,
+            "F1 Score (macro)": 0.9927392030503759,
+            "Precision (macro)": 0.9919908466819223,
+            "Recall (macro)": 0.9936507936507937,
+            "AUROC": 0.9997960243287346,
+            "Accuracy": 0.9921875,
+            "Cohen's Kappa": 0.9903410805916089,
+            "Matthews Correlation Coefficient": 0.9903785859003813
+        },
+        {
+            "Loss": 0.06340718269348145,
+            "F1 Score (macro)": 0.9813251705365055,
+            "Precision (macro)": 0.9780794369029664,
+            "Recall (macro)": 0.9851467855815682,
+            "AUROC": 0.9998346753639581,
+            "Accuracy": 0.984375,
+            "Cohen's Kappa": 0.9807829448635664,
+            "Matthews Correlation Coefficient": 0.9808382739809794
+        },
+        {
+            "Loss": 0.06381069868803024,
+            "F1 Score (macro)": 0.9966274910577414,
+            "Precision (macro)": 0.9965277777777777,
+            "Recall (macro)": 0.9967948717948718,
+            "AUROC": 0.9997965820943762,
+            "Accuracy": 0.99609375,
+            "Cohen's Kappa": 0.9952048251446981,
+            "Matthews Correlation Coefficient": 0.9952234696200548
+        },
+        {
+            "Loss": 0.06391370296478271,
+            "F1 Score (macro)": 0.988303169692828,
+            "Precision (macro)": 0.9827097505668935,
+            "Recall (macro)": 0.9946236559139785,
+            "AUROC": 0.9999111870201723,
+            "Accuracy": 0.9921875,
+            "Cohen's Kappa": 0.9903619900984507,
+            "Matthews Correlation Coefficient": 0.990418596302044
+        },
+        {
+            "Loss": 0.06205526739358902,
+            "F1 Score (macro)": 0.9940733869305297,
+            "Precision (macro)": 0.9940733869305297,
+            "Recall (macro)": 0.9940733869305297,
+            "AUROC": 0.9999702775037852,
+            "Accuracy": 0.9921875,
+            "Cohen's Kappa": 0.9903520012059999,
+            "Matthews Correlation Coefficient": 0.9903520012059999
+        },
+        {
+            "Loss": 0.06385089457035065,
+            "F1 Score (macro)": 0.9926909401314025,
+            "Precision (macro)": 0.9929629629629629,
+            "Recall (macro)": 0.9925779317169718,
+            "AUROC": 0.9998231272133108,
+            "Accuracy": 0.9921875,
+            "Cohen's Kappa": 0.9903325088272502,
+            "Matthews Correlation Coefficient": 0.9903699132113266
+        },
+        {
+            "Loss": 0.06361955404281616,
+            "F1 Score (macro)": 0.9897506517639411,
+            "Precision (macro)": 0.9887241356802506,
+            "Recall (macro)": 0.991002301736765,
+            "AUROC": 0.9999265118548136,
+            "Accuracy": 0.98828125,
+            "Cohen's Kappa": 0.985591264704227,
+            "Matthews Correlation Coefficient": 0.9856468769805191
+        },
+        {
+            "Loss": 0.06373697519302368,
+            "F1 Score (macro)": 0.996731712006152,
+            "Precision (macro)": 0.9967948717948718,
+            "Recall (macro)": 0.9967320261437909,
+            "AUROC": 0.9999514239521637,
+            "Accuracy": 0.99609375,
+            "Cohen's Kappa": 0.9951865222623345,
+            "Matthews Correlation Coefficient": 0.9952052349313958
+        },
+        {
+            "Loss": 0.062218524515628815,
+            "F1 Score (macro)": 0.996485788113695,
+            "Precision (macro)": 0.9956140350877193,
+            "Recall (macro)": 0.9974358974358974,
+            "AUROC": 0.9999588629725616,
+            "Accuracy": 0.99609375,
+            "Cohen's Kappa": 0.9951926688199504,
+            "Matthews Correlation Coefficient": 0.9952114854587747
+        },
+        {
+            "Loss": 0.06250768899917603,
+            "F1 Score (macro)": 0.9963763834731577,
+            "Precision (macro)": 0.9963768115942028,
+            "Recall (macro)": 0.9964539007092199,
+            "AUROC": 0.9998797074793075,
+            "Accuracy": 0.99609375,
+            "Cohen's Kappa": 0.9951436051143908,
+            "Matthews Correlation Coefficient": 0.9951624838168847
+        },
+        {
+            "Loss": 0.06479136645793915,
+            "F1 Score (macro)": 0.9932224925137753,
+            "Precision (macro)": 0.9930555555555555,
+            "Recall (macro)": 0.9935897435897436,
+            "AUROC": 0.9997825619727911,
+            "Accuracy": 0.9921875,
+            "Cohen's Kappa": 0.990247619047619,
+            "Matthews Correlation Coefficient": 0.9903042123511856
+        },
+        {
+            "Loss": 0.06265448033809662,
+            "F1 Score (macro)": 0.9936639936639936,
+            "Precision (macro)": 0.9912280701754387,
+            "Recall (macro)": 0.996376811594203,
+            "AUROC": 0.9999508000939644,
+            "Accuracy": 0.99609375,
+            "Cohen's Kappa": 0.9952009598080384,
+            "Matthews Correlation Coefficient": 0.9952197439302775
+        },
+        {
+            "Loss": 0.06196780502796173,
+            "F1 Score (macro)": 1.0,
+            "Precision (macro)": 1.0,
+            "Recall (macro)": 1.0,
+            "AUROC": 0.9999677932626735,
+            "Accuracy": 1.0,
+            "Cohen's Kappa": 1.0,
+            "Matthews Correlation Coefficient": 1.0
+        },
+        {
+            "Loss": 0.06523403525352478,
+            "F1 Score (macro)": 0.9934615384615384,
+            "Precision (macro)": 0.9937106918238993,
+            "Recall (macro)": 0.9934640522875817,
+            "AUROC": 0.9997130559540889,
+            "Accuracy": 0.9921875,
+            "Cohen's Kappa": 0.9904284752860241,
+            "Matthews Correlation Coefficient": 0.9905025453960844
+        },
+        {
+            "Loss": 0.06441563367843628,
+            "F1 Score (macro)": 0.9875393092386848,
+            "Precision (macro)": 0.9876803751803752,
+            "Recall (macro)": 0.9875914315569488,
+            "AUROC": 0.9998838964356206,
+            "Accuracy": 0.984375,
+            "Cohen's Kappa": 0.9807685084325584,
+            "Matthews Correlation Coefficient": 0.9808421950223266
+        },
+        {
+            "Loss": 0.06231725960969925,
+            "F1 Score (macro)": 0.9960554890750344,
+            "Precision (macro)": 0.9952380952380953,
+            "Recall (macro)": 0.996969696969697,
+            "AUROC": 0.9999101287394199,
+            "Accuracy": 0.99609375,
+            "Cohen's Kappa": 0.9951602230834673,
+            "Matthews Correlation Coefficient": 0.9951791084606729
+        },
+        {
+            "Loss": 0.062157995998859406,
+            "F1 Score (macro)": 0.9964341261712377,
+            "Precision (macro)": 0.9962121212121212,
+            "Recall (macro)": 0.9967320261437909,
+            "AUROC": 0.9999681173282321,
+            "Accuracy": 0.99609375,
+            "Cohen's Kappa": 0.9952004199632533,
+            "Matthews Correlation Coefficient": 0.9952190872592636
+        },
+        {
+            "Loss": 0.0643891766667366,
+            "F1 Score (macro)": 0.9865520701868187,
+            "Precision (macro)": 0.9871166415284063,
+            "Recall (macro)": 0.9861913696060037,
+            "AUROC": 0.9997272681788673,
+            "Accuracy": 0.984375,
+            "Cohen's Kappa": 0.9807370341804774,
+            "Matthews Correlation Coefficient": 0.980792402034773
+        },
+        {
+            "Loss": 0.06307199597358704,
+            "F1 Score (macro)": 0.9899160300936792,
+            "Precision (macro)": 0.9905660377358491,
+            "Recall (macro)": 0.9897222222222223,
+            "AUROC": 0.9999833066239315,
+            "Accuracy": 0.98828125,
+            "Cohen's Kappa": 0.9856120499082018,
+            "Matthews Correlation Coefficient": 0.985741341129287
+        },
+        {
+            "Loss": 0.062401846051216125,
+            "F1 Score (macro)": 0.9933127572016461,
+            "Precision (macro)": 0.9937106918238993,
+            "Recall (macro)": 0.9931101005925314,
+            "AUROC": 0.9998492324385791,
+            "Accuracy": 0.9921875,
+            "Cohen's Kappa": 0.9903936357837066,
+            "Matthews Correlation Coefficient": 0.9904493898546495
+        },
+        {
+            "Loss": 0.062115177512168884,
+            "F1 Score (macro)": 0.9968149968149969,
+            "Precision (macro)": 0.9970238095238096,
+            "Recall (macro)": 0.9966666666666667,
+            "AUROC": 0.9999849238655208,
+            "Accuracy": 0.99609375,
+            "Cohen's Kappa": 0.9951675318546485,
+            "Matthews Correlation Coefficient": 0.9951863241996771
+        },
+        {
+            "Loss": 0.06197267025709152,
+            "F1 Score (macro)": 0.993071296948482,
+            "Precision (macro)": 0.9929754510499853,
+            "Recall (macro)": 0.9932321575061526,
+            "AUROC": 0.9998123467466625,
+            "Accuracy": 0.9921875,
+            "Cohen's Kappa": 0.9904311585400041,
+            "Matthews Correlation Coefficient": 0.990449671963668
+        },
+        {
+            "Loss": 0.06337767839431763,
+            "F1 Score (macro)": 0.9931451612903226,
+            "Precision (macro)": 0.9931451612903226,
+            "Recall (macro)": 0.9931451612903226,
+            "AUROC": 0.9996363147546413,
+            "Accuracy": 0.9921875,
+            "Cohen's Kappa": 0.9903541823662396,
+            "Matthews Correlation Coefficient": 0.9903541823662396
+        },
+        {
+            "Loss": 0.062024667859077454,
+            "F1 Score (macro)": 0.9963369963369964,
+            "Precision (macro)": 0.9963768115942028,
+            "Recall (macro)": 0.9963768115942028,
+            "AUROC": 0.9999648938037563,
+            "Accuracy": 0.99609375,
+            "Cohen's Kappa": 0.9951662544136252,
+            "Matthews Correlation Coefficient": 0.9951850453172205
+        },
+        {
+            "Loss": 0.06162000820040703,
+            "F1 Score (macro)": 1.0,
+            "Precision (macro)": 1.0,
+            "Recall (macro)": 1.0,
+            "AUROC": 1.0,
+            "Accuracy": 1.0,
+            "Cohen's Kappa": 1.0,
+            "Matthews Correlation Coefficient": 1.0
+        },
+        {
+            "Loss": 0.061273932456970215,
+            "F1 Score (macro)": 0.9890266730995413,
+            "Precision (macro)": 0.9859649122807017,
+            "Recall (macro)": 0.9925837320574162,
+            "AUROC": 1.0,
+            "Accuracy": 0.9921875,
+            "Cohen's Kappa": 0.9904136007040012,
+            "Matthews Correlation Coefficient": 0.990450766552077
+        },
+        {
+            "Loss": 0.06095411628484726,
+            "F1 Score (macro)": 1.0,
+            "Precision (macro)": 1.0,
+            "Recall (macro)": 1.0,
+            "AUROC": 1.0,
+            "Accuracy": 1.0,
+            "Cohen's Kappa": 1.0,
+            "Matthews Correlation Coefficient": 1.0
+        },
+        {
+            "Loss": 0.062322862446308136,
+            "F1 Score (macro)": 0.9931055802023545,
+            "Precision (macro)": 0.9930434782608696,
+            "Recall (macro)": 0.9933092466211696,
+            "AUROC": 0.9999330220305355,
+            "Accuracy": 0.9921875,
+            "Cohen's Kappa": 0.990514302653031,
+            "Matthews Correlation Coefficient": 0.990551008760125
+        },
+        {
+            "Loss": 0.06467686593532562,
+            "F1 Score (macro)": 0.9890661490428205,
+            "Precision (macro)": 0.9883062561633991,
+            "Recall (macro)": 0.9900392817059483,
+            "AUROC": 0.9992444128554526,
+            "Accuracy": 0.98828125,
+            "Cohen's Kappa": 0.9855687925138111,
+            "Matthews Correlation Coefficient": 0.9856244307808427
+        },
+        {
+            "Loss": 0.06120656803250313,
+            "F1 Score (macro)": 0.9966350158254206,
+            "Precision (macro)": 0.9962121212121212,
+            "Recall (macro)": 0.9971264367816092,
+            "AUROC": 0.9999854870544526,
+            "Accuracy": 0.99609375,
+            "Cohen's Kappa": 0.9952057231679683,
+            "Matthews Correlation Coefficient": 0.9952243955835386
+        },
+        {
+            "Loss": 0.06189705803990364,
+            "F1 Score (macro)": 0.9967717271259876,
+            "Precision (macro)": 0.9958333333333332,
+            "Recall (macro)": 0.9977777777777778,
+            "AUROC": 1.0,
+            "Accuracy": 0.99609375,
+            "Cohen's Kappa": 0.9951661631419939,
+            "Matthews Correlation Coefficient": 0.9951851717340928
+        },
+        {
+            "Loss": 0.06124942749738693,
+            "F1 Score (macro)": 0.9930521613989356,
+            "Precision (macro)": 0.9929816784869976,
+            "Recall (macro)": 0.9931944444444444,
+            "AUROC": 0.9999660533458088,
+            "Accuracy": 0.9921875,
+            "Cohen's Kappa": 0.9904227459783015,
+            "Matthews Correlation Coefficient": 0.9904412743106313
+        },
+        {
+            "Loss": 0.06092715635895729,
+            "F1 Score (macro)": 0.9951139031664447,
+            "Precision (macro)": 0.9935897435897436,
+            "Recall (macro)": 0.9967948717948718,
+            "AUROC": 0.9999842885872297,
+            "Accuracy": 0.99609375,
+            "Cohen's Kappa": 0.9951460912762367,
+            "Matthews Correlation Coefficient": 0.9951650811113434
+        },
+        {
+            "Loss": 0.060685914009809494,
+            "F1 Score (macro)": 0.9964502851100789,
+            "Precision (macro)": 0.9963768115942028,
+            "Recall (macro)": 0.9965986394557823,
+            "AUROC": 0.9999660152084279,
+            "Accuracy": 0.99609375,
+            "Cohen's Kappa": 0.9951870652378266,
+            "Matthews Correlation Coefficient": 0.9952057772133026
+        },
+        {
+            "Loss": 0.06399819999933243,
+            "F1 Score (macro)": 0.9860762353865803,
+            "Precision (macro)": 0.9827306967984933,
+            "Recall (macro)": 0.9898988241728192,
+            "AUROC": 0.9996367231170011,
+            "Accuracy": 0.98828125,
+            "Cohen's Kappa": 0.9856053080426592,
+            "Matthews Correlation Coefficient": 0.9856423642169055
+        },
+        {
+            "Loss": 0.06041152775287628,
+            "F1 Score (macro)": 1.0,
+            "Precision (macro)": 1.0,
+            "Recall (macro)": 1.0,
+            "AUROC": 1.0,
+            "Accuracy": 1.0,
+            "Cohen's Kappa": 1.0,
+            "Matthews Correlation Coefficient": 1.0
+        },
+        {
+            "Loss": 0.06128384545445442,
+            "F1 Score (macro)": 1.0,
+            "Precision (macro)": 1.0,
+            "Recall (macro)": 1.0,
+            "AUROC": 1.0,
+            "Accuracy": 1.0,
+            "Cohen's Kappa": 1.0,
+            "Matthews Correlation Coefficient": 1.0
+        },
+        {
+            "Loss": 0.06232776492834091,
+            "F1 Score (macro)": 0.9927621760955093,
+            "Precision (macro)": 0.9918048408614446,
+            "Recall (macro)": 0.993939393939394,
+            "AUROC": 0.9999535010399804,
+            "Accuracy": 0.9921875,
+            "Cohen's Kappa": 0.9903103709311127,
+            "Matthews Correlation Coefficient": 0.9903666929942654
+        },
+        {
+            "Loss": 0.06178189814090729,
+            "F1 Score (macro)": 0.9965400392366685,
+            "Precision (macro)": 0.9968553459119497,
+            "Recall (macro)": 0.9962962962962963,
+            "AUROC": 0.9998651002710802,
+            "Accuracy": 0.99609375,
+            "Cohen's Kappa": 0.9951699024546706,
+            "Matthews Correlation Coefficient": 0.9951886905824273
+        },
+        {
+            "Loss": 0.06121308356523514,
+            "F1 Score (macro)": 1.0,
+            "Precision (macro)": 1.0,
+            "Recall (macro)": 1.0,
+            "AUROC": 1.0,
+            "Accuracy": 1.0,
+            "Cohen's Kappa": 1.0,
+            "Matthews Correlation Coefficient": 1.0
+        },
+        {
+            "Loss": 0.06188932806253433,
+            "F1 Score (macro)": 0.9940617670534783,
+            "Precision (macro)": 0.9935640558591379,
+            "Recall (macro)": 0.994622256917339,
+            "AUROC": 0.9999005076100653,
+            "Accuracy": 0.9921875,
+            "Cohen's Kappa": 0.9903299525941035,
+            "Matthews Correlation Coefficient": 0.990348714354079
+        },
+        {
+            "Loss": 0.060639940202236176,
+            "F1 Score (macro)": 1.0,
+            "Precision (macro)": 1.0,
+            "Recall (macro)": 1.0,
+            "AUROC": 1.0,
+            "Accuracy": 1.0,
+            "Cohen's Kappa": 1.0,
+            "Matthews Correlation Coefficient": 1.0
+        },
+        {
+            "Loss": 0.06181026250123978,
+            "F1 Score (macro)": 1.0,
+            "Precision (macro)": 1.0,
+            "Recall (macro)": 1.0,
+            "AUROC": 1.0,
+            "Accuracy": 1.0,
+            "Cohen's Kappa": 1.0,
+            "Matthews Correlation Coefficient": 1.0
+        },
+        {
+            "Loss": 0.0606563575565815,
+            "F1 Score (macro)": 1.0,
+            "Precision (macro)": 1.0,
+            "Recall (macro)": 1.0,
+            "AUROC": 1.0,
+            "Accuracy": 1.0,
+            "Cohen's Kappa": 1.0,
+            "Matthews Correlation Coefficient": 1.0
+        },
+        {
+            "Loss": 0.06283490359783173,
+            "F1 Score (macro)": 0.9932098765432099,
+            "Precision (macro)": 0.9927536231884058,
+            "Recall (macro)": 0.993939393939394,
+            "AUROC": 0.9997169135739257,
+            "Accuracy": 0.9921875,
+            "Cohen's Kappa": 0.9903799180789898,
+            "Matthews Correlation Coefficient": 0.9904544142024383
+        },
+        {
+            "Loss": 0.06085246801376343,
+            "F1 Score (macro)": 1.0,
+            "Precision (macro)": 1.0,
+            "Recall (macro)": 1.0,
+            "AUROC": 1.0,
+            "Accuracy": 1.0,
+            "Cohen's Kappa": 1.0,
+            "Matthews Correlation Coefficient": 1.0
+        },
+        {
+            "Loss": 0.062151338905096054,
+            "F1 Score (macro)": 0.9960353372118078,
+            "Precision (macro)": 0.9949494949494949,
+            "Recall (macro)": 0.9972222222222222,
+            "AUROC": 0.9996977306547619,
+            "Accuracy": 0.99609375,
+            "Cohen's Kappa": 0.9951897782788426,
+            "Matthews Correlation Coefficient": 0.995208606254187
+        },
+        {
+            "Loss": 0.061162881553173065,
+            "F1 Score (macro)": 1.0,
+            "Precision (macro)": 1.0,
+            "Recall (macro)": 1.0,
+            "AUROC": 1.0,
+            "Accuracy": 1.0,
+            "Cohen's Kappa": 1.0,
+            "Matthews Correlation Coefficient": 1.0
+        },
+        {
+            "Loss": 0.061596766114234924,
+            "F1 Score (macro)": 0.9965897623273131,
+            "Precision (macro)": 0.9964539007092199,
+            "Recall (macro)": 0.9967948717948718,
+            "AUROC": 0.9999827467218773,
+            "Accuracy": 0.99609375,
+            "Cohen's Kappa": 0.9951798154773113,
+            "Matthews Correlation Coefficient": 0.9951985583278713
+        },
+        {
+            "Loss": 0.060160934925079346,
+            "F1 Score (macro)": 1.0,
+            "Precision (macro)": 1.0,
+            "Recall (macro)": 1.0,
+            "AUROC": 1.0,
+            "Accuracy": 1.0,
+            "Cohen's Kappa": 1.0,
+            "Matthews Correlation Coefficient": 1.0
+        },
+        {
+            "Loss": 0.061674654483795166,
+            "F1 Score (macro)": 1.0,
+            "Precision (macro)": 1.0,
+            "Recall (macro)": 1.0,
+            "AUROC": 0.9999610955493309,
+            "Accuracy": 1.0,
+            "Cohen's Kappa": 1.0,
+            "Matthews Correlation Coefficient": 1.0
+        },
+        {
+            "Loss": 0.06332339346408844,
+            "F1 Score (macro)": 0.981104209799862,
+            "Precision (macro)": 0.9756069094304389,
+            "Recall (macro)": 0.9875571697605596,
+            "AUROC": 0.9994855099657575,
+            "Accuracy": 0.984375,
+            "Cohen's Kappa": 0.9807923169267707,
+            "Matthews Correlation Coefficient": 0.9809217566277466
+        },
+        {
+            "Loss": 0.06001773104071617,
+            "F1 Score (macro)": 1.0,
+            "Precision (macro)": 1.0,
+            "Recall (macro)": 1.0,
+            "AUROC": 1.0,
+            "Accuracy": 1.0,
+            "Cohen's Kappa": 1.0,
+            "Matthews Correlation Coefficient": 1.0
+        },
+        {
+            "Loss": 0.06058567762374878,
+            "F1 Score (macro)": 1.0,
+            "Precision (macro)": 1.0,
+            "Recall (macro)": 1.0,
+            "AUROC": 1.0,
+            "Accuracy": 1.0,
+            "Cohen's Kappa": 1.0,
+            "Matthews Correlation Coefficient": 1.0
+        },
+        {
+            "Loss": 0.06213134154677391,
+            "F1 Score (macro)": 0.9936547184811074,
+            "Precision (macro)": 0.9940625000000001,
+            "Recall (macro)": 0.9933307926829268,
+            "AUROC": 0.999972873263889,
+            "Accuracy": 0.9921875,
+            "Cohen's Kappa": 0.990329404653974,
+            "Matthews Correlation Coefficient": 0.9903481245413034
+        },
+        {
+            "Loss": 0.060548000037670135,
+            "F1 Score (macro)": 1.0,
+            "Precision (macro)": 1.0,
+            "Recall (macro)": 1.0,
+            "AUROC": 0.9999847206942917,
+            "Accuracy": 1.0,
+            "Cohen's Kappa": 1.0,
+            "Matthews Correlation Coefficient": 1.0
+        },
+        {
+            "Loss": 0.06156875193119049,
+            "F1 Score (macro)": 1.0,
+            "Precision (macro)": 1.0,
+            "Recall (macro)": 1.0,
+            "AUROC": 0.9999851190476191,
+            "Accuracy": 1.0,
+            "Cohen's Kappa": 1.0,
+            "Matthews Correlation Coefficient": 1.0
+        },
+        {
+            "Loss": 0.06168992817401886,
+            "F1 Score (macro)": 0.9927988677988678,
+            "Precision (macro)": 0.9937106918238993,
+            "Recall (macro)": 0.9921033073206987,
+            "AUROC": 0.9999030400424574,
+            "Accuracy": 0.9921875,
+            "Cohen's Kappa": 0.9903503646883658,
+            "Matthews Correlation Coefficient": 0.9904064334559359
+        },
+        {
+            "Loss": 0.06150825694203377,
+            "F1 Score (macro)": 0.9965674664469845,
+            "Precision (macro)": 0.9971751412429378,
+            "Recall (macro)": 0.996031746031746,
+            "AUROC": 0.9999709741089052,
+            "Accuracy": 0.99609375,
+            "Cohen's Kappa": 0.9951948344470306,
+            "Matthews Correlation Coefficient": 0.9952135654501971
+        },
+        {
+            "Loss": 0.06114618852734566,
+            "F1 Score (macro)": 0.9968068606878934,
+            "Precision (macro)": 0.9965986394557823,
+            "Recall (macro)": 0.9970760233918128,
+            "AUROC": 0.999939226574562,
+            "Accuracy": 0.99609375,
+            "Cohen's Kappa": 0.9951800877374654,
+            "Matthews Correlation Coefficient": 0.9951988364137611
+        },
+        {
+            "Loss": 0.06069798395037651,
+            "F1 Score (macro)": 0.9930911680911682,
+            "Precision (macro)": 0.9930911680911682,
+            "Recall (macro)": 0.9930911680911682,
+            "AUROC": 0.9999353126635674,
+            "Accuracy": 0.9921875,
+            "Cohen's Kappa": 0.9904843326023121,
+            "Matthews Correlation Coefficient": 0.9904843326023121
+        },
+        {
+            "Loss": 0.06064348667860031,
+            "F1 Score (macro)": 0.9960762590592255,
+            "Precision (macro)": 0.996031746031746,
+            "Recall (macro)": 0.9962121212121212,
+            "AUROC": 0.9997141223556318,
+            "Accuracy": 0.99609375,
+            "Cohen's Kappa": 0.9951527086134095,
+            "Matthews Correlation Coefficient": 0.9951715526336311
+        },
+        {
+            "Loss": 0.06297258287668228,
+            "F1 Score (macro)": 0.9900364999506758,
+            "Precision (macro)": 0.9898213816653533,
+            "Recall (macro)": 0.9903162055335968,
+            "AUROC": 0.9998253074699672,
+            "Accuracy": 0.98828125,
+            "Cohen's Kappa": 0.9856932620480244,
+            "Matthews Correlation Coefficient": 0.9857116353876217
+        },
+        {
+            "Loss": 0.060722868889570236,
+            "F1 Score (macro)": 1.0,
+            "Precision (macro)": 1.0,
+            "Recall (macro)": 1.0,
+            "AUROC": 1.0,
+            "Accuracy": 1.0,
+            "Cohen's Kappa": 1.0,
+            "Matthews Correlation Coefficient": 1.0
+        },
+        {
+            "Loss": 0.059869106858968735,
+            "F1 Score (macro)": 0.9921995464852608,
+            "Precision (macro)": 0.9871794871794872,
+            "Recall (macro)": 0.9977477477477477,
+            "AUROC": 1.0,
+            "Accuracy": 0.99609375,
+            "Cohen's Kappa": 0.9950987900137847,
+            "Matthews Correlation Coefficient": 0.9951185205479365
+        },
+        {
+            "Loss": 0.061760712414979935,
+            "F1 Score (macro)": 0.9933141051177162,
+            "Precision (macro)": 0.9938832772166105,
+            "Recall (macro)": 0.9928787878787878,
+            "AUROC": 0.9999361770049712,
+            "Accuracy": 0.9921875,
+            "Cohen's Kappa": 0.9904529265882265,
+            "Matthews Correlation Coefficient": 0.99048990392663
+        },
+        {
+            "Loss": 0.060780562460422516,
+            "F1 Score (macro)": 0.9964502851100789,
+            "Precision (macro)": 0.9963768115942028,
+            "Recall (macro)": 0.9965986394557823,
+            "AUROC": 0.9999331518215272,
+            "Accuracy": 0.99609375,
+            "Cohen's Kappa": 0.9951980792316927,
+            "Matthews Correlation Coefficient": 0.9952167485885951
+        },
+        {
+            "Loss": 0.05983160436153412,
+            "F1 Score (macro)": 0.9967192228061794,
+            "Precision (macro)": 0.9971264367816092,
+            "Recall (macro)": 0.996376811594203,
+            "AUROC": 1.0,
+            "Accuracy": 0.99609375,
+            "Cohen's Kappa": 0.9951983494326174,
+            "Matthews Correlation Coefficient": 0.9952170413780664
+        },
+        {
+            "Loss": 0.06160077825188637,
+            "F1 Score (macro)": 0.9966147142617731,
+            "Precision (macro)": 0.9961240310077519,
+            "Recall (macro)": 0.9971751412429378,
+            "AUROC": 0.9985942234066923,
+            "Accuracy": 0.99609375,
+            "Cohen's Kappa": 0.9952148638292304,
+            "Matthews Correlation Coefficient": 0.9952335111818853
+        },
+        {
+            "Loss": 0.06356293708086014,
+            "F1 Score (macro)": 0.9783871382708593,
+            "Precision (macro)": 0.9789018087855298,
+            "Recall (macro)": 0.9779616378453588,
+            "AUROC": 0.9991667024641174,
+            "Accuracy": 0.98828125,
+            "Cohen's Kappa": 0.9855405354520466,
+            "Matthews Correlation Coefficient": 0.9855591121313333
+        },
+        {
+            "Loss": 0.06042816862463951,
+            "F1 Score (macro)": 1.0,
+            "Precision (macro)": 1.0,
+            "Recall (macro)": 1.0,
+            "AUROC": 0.9999830330177475,
+            "Accuracy": 1.0,
+            "Cohen's Kappa": 1.0,
+            "Matthews Correlation Coefficient": 1.0
+        },
+        {
+            "Loss": 0.06078711897134781,
+            "F1 Score (macro)": 0.9891059076394605,
+            "Precision (macro)": 0.989078087375301,
+            "Recall (macro)": 0.9891942820012996,
+            "AUROC": 0.9999313372055774,
+            "Accuracy": 0.98828125,
+            "Cohen's Kappa": 0.9855720458388127,
+            "Matthews Correlation Coefficient": 0.9855905631013584
+        },
+        {
+            "Loss": 0.061072420328855515,
+            "F1 Score (macro)": 0.9962067936751481,
+            "Precision (macro)": 0.9966666666666667,
+            "Recall (macro)": 0.9958333333333332,
+            "AUROC": 0.9992934371816359,
+            "Accuracy": 0.99609375,
+            "Cohen's Kappa": 0.9951931201532193,
+            "Matthews Correlation Coefficient": 0.9952118246651255
+        }
+    ],
+    "Val": [
+        {
+            "Loss": 0.2412601262331009,
+            "F1 Score (macro)": 0.20051873637113085,
+            "Precision (macro)": 0.23313282847648886,
+            "Recall (macro)": 0.2145449854024608,
+            "AUROC": 0.5735974772444928,
+            "Accuracy": 0.21080368906455862,
+            "Cohen's Kappa": 0.055966228815143015,
+            "Matthews Correlation Coefficient": 0.05768773099237725
+        },
+        {
+            "Loss": 0.23834791779518127,
+            "F1 Score (macro)": 0.29499960460857216,
+            "Precision (macro)": 0.31170685261460834,
+            "Recall (macro)": 0.3026156008852842,
+            "AUROC": 0.6438924428743501,
+            "Accuracy": 0.30566534914361,
+            "Cohen's Kappa": 0.16331708745581186,
+            "Matthews Correlation Coefficient": 0.16520046280479483
+        },
+        {
+            "Loss": 0.23356248438358307,
+            "F1 Score (macro)": 0.41495554219496866,
+            "Precision (macro)": 0.42839596811410635,
+            "Recall (macro)": 0.4320394376063658,
+            "AUROC": 0.7414422884694228,
+            "Accuracy": 0.42555994729907776,
+            "Cohen's Kappa": 0.3104572031055306,
+            "Matthews Correlation Coefficient": 0.3140580773357406
+        },
+        {
+            "Loss": 0.22695870697498322,
+            "F1 Score (macro)": 0.5262528666372378,
+            "Precision (macro)": 0.5339379333042258,
+            "Recall (macro)": 0.5549613987262348,
+            "AUROC": 0.8230365683608035,
+            "Accuracy": 0.541501976284585,
+            "Cohen's Kappa": 0.44842995950909736,
+            "Matthews Correlation Coefficient": 0.452818153624142
+        },
+        {
+            "Loss": 0.21785539388656616,
+            "F1 Score (macro)": 0.6191930662304094,
+            "Precision (macro)": 0.6319429203223044,
+            "Recall (macro)": 0.6542773303847177,
+            "AUROC": 0.8748316458140568,
+            "Accuracy": 0.6389986824769434,
+            "Cohen's Kappa": 0.5659027671960875,
+            "Matthews Correlation Coefficient": 0.5724061901070668
+        },
+        {
+            "Loss": 0.20472562313079834,
+            "F1 Score (macro)": 0.6544781475260931,
+            "Precision (macro)": 0.6677502012377311,
+            "Recall (macro)": 0.6865114321830882,
+            "AUROC": 0.9051424575380022,
+            "Accuracy": 0.6772068511198946,
+            "Cohen's Kappa": 0.6111566497848298,
+            "Matthews Correlation Coefficient": 0.6176252052377251
+        },
+        {
+            "Loss": 0.18712416291236877,
+            "F1 Score (macro)": 0.6898265738274048,
+            "Precision (macro)": 0.6985599512852095,
+            "Recall (macro)": 0.7161398878219375,
+            "AUROC": 0.9220631831216154,
+            "Accuracy": 0.7167325428194994,
+            "Cohen's Kappa": 0.6574593405486193,
+            "Matthews Correlation Coefficient": 0.6628810957455312
+        },
+        {
+            "Loss": 0.16565550863742828,
+            "F1 Score (macro)": 0.7155127008068184,
+            "Precision (macro)": 0.7213049913743393,
+            "Recall (macro)": 0.7426586045210622,
+            "AUROC": 0.934601442054286,
+            "Accuracy": 0.7417654808959157,
+            "Cohen's Kappa": 0.6873983483578139,
+            "Matthews Correlation Coefficient": 0.6923934775600261
+        },
+        {
+            "Loss": 0.1495795100927353,
+            "F1 Score (macro)": 0.7407784105306224,
+            "Precision (macro)": 0.7426838330881459,
+            "Recall (macro)": 0.7629407098883435,
+            "AUROC": 0.9430455977799769,
+            "Accuracy": 0.769433465085639,
+            "Cohen's Kappa": 0.7200070828247823,
+            "Matthews Correlation Coefficient": 0.7231266363137133
+        },
+        {
+            "Loss": 0.13819457590579987,
+            "F1 Score (macro)": 0.7747244045275323,
+            "Precision (macro)": 0.7716232722659329,
+            "Recall (macro)": 0.7912575852684792,
+            "AUROC": 0.9493067483304892,
+            "Accuracy": 0.8010540184453228,
+            "Cohen's Kappa": 0.7575428709239302,
+            "Matthews Correlation Coefficient": 0.7594615482872055
+        },
+        {
+            "Loss": 0.13007259368896484,
+            "F1 Score (macro)": 0.7902458029892617,
+            "Precision (macro)": 0.785273675876303,
+            "Recall (macro)": 0.8027061899809987,
+            "AUROC": 0.9543515516593866,
+            "Accuracy": 0.8181818181818182,
+            "Cohen's Kappa": 0.7780052646972799,
+            "Matthews Correlation Coefficient": 0.7788445568731026
+        },
+        {
+            "Loss": 0.12417741119861603,
+            "F1 Score (macro)": 0.8027394605028751,
+            "Precision (macro)": 0.7982710170041308,
+            "Recall (macro)": 0.8130860330447852,
+            "AUROC": 0.9589559352354481,
+            "Accuracy": 0.8300395256916996,
+            "Cohen's Kappa": 0.7922352676553658,
+            "Matthews Correlation Coefficient": 0.79293501521301
+        },
+        {
+            "Loss": 0.11953078210353851,
+            "F1 Score (macro)": 0.8247054464089737,
+            "Precision (macro)": 0.8259731289469193,
+            "Recall (macro)": 0.8252136484490012,
+            "AUROC": 0.9632191610075519,
+            "Accuracy": 0.847167325428195,
+            "Cohen's Kappa": 0.8125059893565142,
+            "Matthews Correlation Coefficient": 0.8128539559413951
+        },
+        {
+            "Loss": 0.11580079048871994,
+            "F1 Score (macro)": 0.8367232975171026,
+            "Precision (macro)": 0.8411775836760885,
+            "Recall (macro)": 0.8340618329840542,
+            "AUROC": 0.9669151422454726,
+            "Accuracy": 0.8563899868247694,
+            "Cohen's Kappa": 0.8235817190818598,
+            "Matthews Correlation Coefficient": 0.8238726065903665
+        },
+        {
+            "Loss": 0.11338337510824203,
+            "F1 Score (macro)": 0.8440817275873015,
+            "Precision (macro)": 0.8526481784535526,
+            "Recall (macro)": 0.8387645293948097,
+            "AUROC": 0.9696765468880505,
+            "Accuracy": 0.8682476943346509,
+            "Cohen's Kappa": 0.8379873719801401,
+            "Matthews Correlation Coefficient": 0.8384379454687871
+        },
+        {
+            "Loss": 0.11054344475269318,
+            "F1 Score (macro)": 0.8470431792314076,
+            "Precision (macro)": 0.8521381457986871,
+            "Recall (macro)": 0.843671653446577,
+            "AUROC": 0.9716903589854335,
+            "Accuracy": 0.8708827404479579,
+            "Cohen's Kappa": 0.8413150147203141,
+            "Matthews Correlation Coefficient": 0.8416327629750276
+        },
+        {
+            "Loss": 0.10859159380197525,
+            "F1 Score (macro)": 0.8579912248992723,
+            "Precision (macro)": 0.862989233403665,
+            "Recall (macro)": 0.8545262551747091,
+            "AUROC": 0.973394495085422,
+            "Accuracy": 0.8827404479578392,
+            "Cohen's Kappa": 0.8559004223729682,
+            "Matthews Correlation Coefficient": 0.8561795717123322
+        },
+        {
+            "Loss": 0.10672736912965775,
+            "F1 Score (macro)": 0.874173258994395,
+            "Precision (macro)": 0.8771563999017418,
+            "Recall (macro)": 0.8719707245103004,
+            "AUROC": 0.9752747871665982,
+            "Accuracy": 0.8906455862977603,
+            "Cohen's Kappa": 0.8656966518499568,
+            "Matthews Correlation Coefficient": 0.8658652104122229
+        },
+        {
+            "Loss": 0.10551345348358154,
+            "F1 Score (macro)": 0.8699927485725819,
+            "Precision (macro)": 0.8751401250572859,
+            "Recall (macro)": 0.8658255937059239,
+            "AUROC": 0.9765973193076148,
+            "Accuracy": 0.8919631093544137,
+            "Cohen's Kappa": 0.8672638280175309,
+            "Matthews Correlation Coefficient": 0.867323887393572
+        },
+        {
+            "Loss": 0.10424012690782547,
+            "F1 Score (macro)": 0.8805769899668628,
+            "Precision (macro)": 0.8846162880308642,
+            "Recall (macro)": 0.8772555969463403,
+            "AUROC": 0.9767443970290656,
+            "Accuracy": 0.8998682476943346,
+            "Cohen's Kappa": 0.8769859379598313,
+            "Matthews Correlation Coefficient": 0.8771140054797496
+        },
+        {
+            "Loss": 0.10420515388250351,
+            "F1 Score (macro)": 0.876573665320192,
+            "Precision (macro)": 0.8855604568577999,
+            "Recall (macro)": 0.8700841748556271,
+            "AUROC": 0.977525200266007,
+            "Accuracy": 0.8998682476943346,
+            "Cohen's Kappa": 0.8769085007906074,
+            "Matthews Correlation Coefficient": 0.877005708554217
+        },
+        {
+            "Loss": 0.10262814164161682,
+            "F1 Score (macro)": 0.8847673143270285,
+            "Precision (macro)": 0.8921727705800538,
+            "Recall (macro)": 0.8792483977295272,
+            "AUROC": 0.9785758334856056,
+            "Accuracy": 0.9064558629776021,
+            "Cohen's Kappa": 0.8850583783737667,
+            "Matthews Correlation Coefficient": 0.8851273698993956
+        },
+        {
+            "Loss": 0.10268290340900421,
+            "F1 Score (macro)": 0.8778569125856818,
+            "Precision (macro)": 0.8877817212585738,
+            "Recall (macro)": 0.8711859782689437,
+            "AUROC": 0.9779552265353653,
+            "Accuracy": 0.8998682476943346,
+            "Cohen's Kappa": 0.8769397498858656,
+            "Matthews Correlation Coefficient": 0.8770458903796937
+        },
+        {
+            "Loss": 0.1013818234205246,
+            "F1 Score (macro)": 0.8875888276644045,
+            "Precision (macro)": 0.8968154253154252,
+            "Recall (macro)": 0.8809247280575431,
+            "AUROC": 0.9797335231037207,
+            "Accuracy": 0.9090909090909091,
+            "Cohen's Kappa": 0.8882530294010331,
+            "Matthews Correlation Coefficient": 0.8883475772403336
+        },
+        {
+            "Loss": 0.1014789417386055,
+            "F1 Score (macro)": 0.8844027081355822,
+            "Precision (macro)": 0.8953725038402457,
+            "Recall (macro)": 0.8767535484432555,
+            "AUROC": 0.9796130249436654,
+            "Accuracy": 0.9077733860342556,
+            "Cohen's Kappa": 0.8865763917501563,
+            "Matthews Correlation Coefficient": 0.8867287255291436
+        },
+        {
+            "Loss": 0.1018170639872551,
+            "F1 Score (macro)": 0.8816329096241039,
+            "Precision (macro)": 0.8944033475346935,
+            "Recall (macro)": 0.8731305429518449,
+            "AUROC": 0.9794586574336611,
+            "Accuracy": 0.9038208168642952,
+            "Cohen's Kappa": 0.8817060360729657,
+            "Matthews Correlation Coefficient": 0.8818652745863526
+        },
+        {
+            "Loss": 0.10039649903774261,
+            "F1 Score (macro)": 0.8958189052327747,
+            "Precision (macro)": 0.9053716482373405,
+            "Recall (macro)": 0.8890690728727831,
+            "AUROC": 0.9796804673066339,
+            "Accuracy": 0.9117259552042161,
+            "Cohen's Kappa": 0.8915355821220232,
+            "Matthews Correlation Coefficient": 0.8916374393951025
+        },
+        {
+            "Loss": 0.09903963655233383,
+            "F1 Score (macro)": 0.8876547661819271,
+            "Precision (macro)": 0.8955146194305884,
+            "Recall (macro)": 0.8817166461029823,
+            "AUROC": 0.9801573028807623,
+            "Accuracy": 0.9064558629776021,
+            "Cohen's Kappa": 0.885051023020085,
+            "Matthews Correlation Coefficient": 0.88511443309085
+        },
+        {
+            "Loss": 0.09808193147182465,
+            "F1 Score (macro)": 0.9006570401685807,
+            "Precision (macro)": 0.9084307958509487,
+            "Recall (macro)": 0.8945047700790748,
+            "AUROC": 0.981312029776459,
+            "Accuracy": 0.9156785243741765,
+            "Cohen's Kappa": 0.8963608084437267,
+            "Matthews Correlation Coefficient": 0.8964560436046937
+        },
+        {
+            "Loss": 0.09835752844810486,
+            "F1 Score (macro)": 0.9052407908741142,
+            "Precision (macro)": 0.915590948066468,
+            "Recall (macro)": 0.8972382605281849,
+            "AUROC": 0.9814090493386779,
+            "Accuracy": 0.9169960474308301,
+            "Cohen's Kappa": 0.8979270331021498,
+            "Matthews Correlation Coefficient": 0.8980830468437246
+        },
+        {
+            "Loss": 0.09806293994188309,
+            "F1 Score (macro)": 0.9008705294358057,
+            "Precision (macro)": 0.9059022589716291,
+            "Recall (macro)": 0.8965258971002018,
+            "AUROC": 0.9805112595762947,
+            "Accuracy": 0.9156785243741765,
+            "Cohen's Kappa": 0.8964089900004478,
+            "Matthews Correlation Coefficient": 0.8964556528859522
+        },
+        {
+            "Loss": 0.09718208014965057,
+            "F1 Score (macro)": 0.9030570192008188,
+            "Precision (macro)": 0.9102564821049682,
+            "Recall (macro)": 0.8972248611680892,
+            "AUROC": 0.9811366699591018,
+            "Accuracy": 0.9130434782608695,
+            "Cohen's Kappa": 0.8931275561254205,
+            "Matthews Correlation Coefficient": 0.8932700948875726
+        },
+        {
+            "Loss": 0.09815297275781631,
+            "F1 Score (macro)": 0.9058020371193715,
+            "Precision (macro)": 0.9201290098239108,
+            "Recall (macro)": 0.8954506321503702,
+            "AUROC": 0.979914186104288,
+            "Accuracy": 0.9209486166007905,
+            "Cohen's Kappa": 0.902709354343897,
+            "Matthews Correlation Coefficient": 0.9029709842439358
+        },
+        {
+            "Loss": 0.09702649712562561,
+            "F1 Score (macro)": 0.9046907845577338,
+            "Precision (macro)": 0.9146580120001516,
+            "Recall (macro)": 0.8969951033224112,
+            "AUROC": 0.9816386347756806,
+            "Accuracy": 0.9156785243741765,
+            "Cohen's Kappa": 0.8963386918137528,
+            "Matthews Correlation Coefficient": 0.8964630759845087
+        },
+        {
+            "Loss": 0.09818535298109055,
+            "F1 Score (macro)": 0.8888526301658151,
+            "Precision (macro)": 0.9021100274377173,
+            "Recall (macro)": 0.8798794711569293,
+            "AUROC": 0.981657332538862,
+            "Accuracy": 0.9077733860342556,
+            "Cohen's Kappa": 0.8865756653245606,
+            "Matthews Correlation Coefficient": 0.8867166257479251
+        },
+        {
+            "Loss": 0.09717649221420288,
+            "F1 Score (macro)": 0.8971073717512219,
+            "Precision (macro)": 0.9077270664688705,
+            "Recall (macro)": 0.8892230168986393,
+            "AUROC": 0.981684596170408,
+            "Accuracy": 0.9130434782608695,
+            "Cohen's Kappa": 0.8930969946200648,
+            "Matthews Correlation Coefficient": 0.893198046932506
+        },
+        {
+            "Loss": 0.09617920219898224,
+            "F1 Score (macro)": 0.9099246414784705,
+            "Precision (macro)": 0.9229202311051589,
+            "Recall (macro)": 0.9002758446595261,
+            "AUROC": 0.9829892799464547,
+            "Accuracy": 0.9235836627140975,
+            "Cohen's Kappa": 0.9059714595121076,
+            "Matthews Correlation Coefficient": 0.9062877732972675
+        },
+        {
+            "Loss": 0.09760104864835739,
+            "F1 Score (macro)": 0.8902960888210908,
+            "Precision (macro)": 0.9058674770777263,
+            "Recall (macro)": 0.8794751218598398,
+            "AUROC": 0.9804859278131849,
+            "Accuracy": 0.9090909090909091,
+            "Cohen's Kappa": 0.8880691278022257,
+            "Matthews Correlation Coefficient": 0.8883965771047003
+        },
+        {
+            "Loss": 0.09538179636001587,
+            "F1 Score (macro)": 0.9076177118929397,
+            "Precision (macro)": 0.9177744001651651,
+            "Recall (macro)": 0.9002097794755882,
+            "AUROC": 0.9802687562709202,
+            "Accuracy": 0.9169960474308301,
+            "Cohen's Kappa": 0.8979392335357459,
+            "Matthews Correlation Coefficient": 0.8983237410343686
+        },
+        {
+            "Loss": 0.09481821209192276,
+            "F1 Score (macro)": 0.9009203050608009,
+            "Precision (macro)": 0.9091086277769748,
+            "Recall (macro)": 0.8943748081078406,
+            "AUROC": 0.9815572012499422,
+            "Accuracy": 0.9130434782608695,
+            "Cohen's Kappa": 0.893113645965357,
+            "Matthews Correlation Coefficient": 0.8932201347666241
+        },
+        {
+            "Loss": 0.09361139684915543,
+            "F1 Score (macro)": 0.9129808124486818,
+            "Precision (macro)": 0.9217352058770749,
+            "Recall (macro)": 0.9065543583835831,
+            "AUROC": 0.9810813358220233,
+            "Accuracy": 0.922266139657444,
+            "Cohen's Kappa": 0.9044045913803814,
+            "Matthews Correlation Coefficient": 0.9049105097817919
+        },
+        {
+            "Loss": 0.09361868351697922,
+            "F1 Score (macro)": 0.911264080329544,
+            "Precision (macro)": 0.9169553154412862,
+            "Recall (macro)": 0.906549441295522,
+            "AUROC": 0.9820985230862047,
+            "Accuracy": 0.924901185770751,
+            "Cohen's Kappa": 0.9076928000682761,
+            "Matthews Correlation Coefficient": 0.9079077156310729
+        },
+        {
+            "Loss": 0.0946657806634903,
+            "F1 Score (macro)": 0.9090708386124345,
+            "Precision (macro)": 0.9225139014055431,
+            "Recall (macro)": 0.8990106779014018,
+            "AUROC": 0.9822102507656401,
+            "Accuracy": 0.922266139657444,
+            "Cohen's Kappa": 0.9043269816242685,
+            "Matthews Correlation Coefficient": 0.9046668148049275
+        },
+        {
+            "Loss": 0.0923590213060379,
+            "F1 Score (macro)": 0.911235401965178,
+            "Precision (macro)": 0.9168401765474182,
+            "Recall (macro)": 0.9068212822705163,
+            "AUROC": 0.9832142957737385,
+            "Accuracy": 0.9235836627140975,
+            "Cohen's Kappa": 0.9061192457465548,
+            "Matthews Correlation Coefficient": 0.9063038604971537
+        },
+        {
+            "Loss": 0.09208360314369202,
+            "F1 Score (macro)": 0.9206484332523077,
+            "Precision (macro)": 0.9264717416706282,
+            "Recall (macro)": 0.9164602499967173,
+            "AUROC": 0.9849758046512441,
+            "Accuracy": 0.927536231884058,
+            "Cohen's Kappa": 0.9110159465733306,
+            "Matthews Correlation Coefficient": 0.9113040359636002
+        },
+        {
+            "Loss": 0.0914032831788063,
+            "F1 Score (macro)": 0.915410537621816,
+            "Precision (macro)": 0.9274497307968251,
+            "Recall (macro)": 0.9071571193850905,
+            "AUROC": 0.9874549314023734,
+            "Accuracy": 0.9262187088274044,
+            "Cohen's Kappa": 0.9092957746478874,
+            "Matthews Correlation Coefficient": 0.9096321085575475
+        },
+        {
+            "Loss": 0.0911639854311943,
+            "F1 Score (macro)": 0.9157446360306957,
+            "Precision (macro)": 0.9217486545186689,
+            "Recall (macro)": 0.9107501654645701,
+            "AUROC": 0.9868003122702905,
+            "Accuracy": 0.927536231884058,
+            "Cohen's Kappa": 0.9109574869726399,
+            "Matthews Correlation Coefficient": 0.9110966831600124
+        },
+        {
+            "Loss": 0.09082169830799103,
+            "F1 Score (macro)": 0.9073983634563448,
+            "Precision (macro)": 0.9151546358070107,
+            "Recall (macro)": 0.9012445668460044,
+            "AUROC": 0.9866041512237514,
+            "Accuracy": 0.9209486166007905,
+            "Cohen's Kappa": 0.9028129608328123,
+            "Matthews Correlation Coefficient": 0.9030387854931009
+        },
+        {
+            "Loss": 0.0897623598575592,
+            "F1 Score (macro)": 0.9204873638490397,
+            "Precision (macro)": 0.927843064862783,
+            "Recall (macro)": 0.9149772424254401,
+            "AUROC": 0.9885015538836811,
+            "Accuracy": 0.9354413702239789,
+            "Cohen's Kappa": 0.9206619080735378,
+            "Matthews Correlation Coefficient": 0.9209602716715815
+        },
+        {
+            "Loss": 0.08901441097259521,
+            "F1 Score (macro)": 0.9142432555025127,
+            "Precision (macro)": 0.9196022115110886,
+            "Recall (macro)": 0.9098481118477135,
+            "AUROC": 0.988997575319433,
+            "Accuracy": 0.924901185770751,
+            "Cohen's Kappa": 0.907710915851247,
+            "Matthews Correlation Coefficient": 0.9079215712905245
+        },
+        {
+            "Loss": 0.08870584517717361,
+            "F1 Score (macro)": 0.911172957839285,
+            "Precision (macro)": 0.9182369567427037,
+            "Recall (macro)": 0.9056551948368233,
+            "AUROC": 0.989048643652693,
+            "Accuracy": 0.924901185770751,
+            "Cohen's Kappa": 0.9077103252313481,
+            "Matthews Correlation Coefficient": 0.907936518932949
+        },
+        {
+            "Loss": 0.08676440268754959,
+            "F1 Score (macro)": 0.9188450612658307,
+            "Precision (macro)": 0.9249598580471617,
+            "Recall (macro)": 0.9138209891678692,
+            "AUROC": 0.9888175172382544,
+            "Accuracy": 0.9314888010540184,
+            "Cohen's Kappa": 0.9158048330944092,
+            "Matthews Correlation Coefficient": 0.9159860746382674
+        },
+        {
+            "Loss": 0.08758852630853653,
+            "F1 Score (macro)": 0.9121734149885069,
+            "Precision (macro)": 0.9204940393754821,
+            "Recall (macro)": 0.9059129872856014,
+            "AUROC": 0.987173767406956,
+            "Accuracy": 0.927536231884058,
+            "Cohen's Kappa": 0.9109295587124526,
+            "Matthews Correlation Coefficient": 0.9111745179737066
+        },
+        {
+            "Loss": 0.08977621048688889,
+            "F1 Score (macro)": 0.9184129356030093,
+            "Precision (macro)": 0.9289015837075066,
+            "Recall (macro)": 0.9100310137115418,
+            "AUROC": 0.986349548364896,
+            "Accuracy": 0.9288537549407114,
+            "Cohen's Kappa": 0.9124827307882021,
+            "Matthews Correlation Coefficient": 0.9127319419925627
+        },
+        {
+            "Loss": 0.08685524016618729,
+            "F1 Score (macro)": 0.9156460252953252,
+            "Precision (macro)": 0.9199195293953358,
+            "Recall (macro)": 0.9118817774433965,
+            "AUROC": 0.988921446967833,
+            "Accuracy": 0.924901185770751,
+            "Cohen's Kappa": 0.9077294181128711,
+            "Matthews Correlation Coefficient": 0.9078408007195548
+        },
+        {
+            "Loss": 0.08480337262153625,
+            "F1 Score (macro)": 0.9215895339343332,
+            "Precision (macro)": 0.923704536245093,
+            "Recall (macro)": 0.9198848299716649,
+            "AUROC": 0.9903881741545529,
+            "Accuracy": 0.930171277997365,
+            "Cohen's Kappa": 0.9142720143210298,
+            "Matthews Correlation Coefficient": 0.9143677157531709
+        },
+        {
+            "Loss": 0.08453314006328583,
+            "F1 Score (macro)": 0.9291306315006157,
+            "Precision (macro)": 0.9299607692272652,
+            "Recall (macro)": 0.9285094234440546,
+            "AUROC": 0.9907692436369925,
+            "Accuracy": 0.9393939393939394,
+            "Cohen's Kappa": 0.9256102731714176,
+            "Matthews Correlation Coefficient": 0.9256655851767877
+        },
+        {
+            "Loss": 0.08602289855480194,
+            "F1 Score (macro)": 0.9224018035901418,
+            "Precision (macro)": 0.927881985096059,
+            "Recall (macro)": 0.9176478217714581,
+            "AUROC": 0.9909334853419883,
+            "Accuracy": 0.9314888010540184,
+            "Cohen's Kappa": 0.915805371919338,
+            "Matthews Correlation Coefficient": 0.9159278706398045
+        },
+        {
+            "Loss": 0.08533595502376556,
+            "F1 Score (macro)": 0.9215000182357226,
+            "Precision (macro)": 0.9242332709649465,
+            "Recall (macro)": 0.919041468173247,
+            "AUROC": 0.9905004976441063,
+            "Accuracy": 0.9314888010540184,
+            "Cohen's Kappa": 0.9158821736619217,
+            "Matthews Correlation Coefficient": 0.9159194982653815
+        },
+        {
+            "Loss": 0.08322042971849442,
+            "F1 Score (macro)": 0.9216772950473775,
+            "Precision (macro)": 0.9208511345236761,
+            "Recall (macro)": 0.9229131695005225,
+            "AUROC": 0.9912116840521522,
+            "Accuracy": 0.927536231884058,
+            "Cohen's Kappa": 0.911074708322061,
+            "Matthews Correlation Coefficient": 0.9111601406280335
+        },
+        {
+            "Loss": 0.08195207267999649,
+            "F1 Score (macro)": 0.9357728698589257,
+            "Precision (macro)": 0.9349762396880248,
+            "Recall (macro)": 0.9368156492765327,
+            "AUROC": 0.9912025157497575,
+            "Accuracy": 0.9393939393939394,
+            "Cohen's Kappa": 0.925649718476622,
+            "Matthews Correlation Coefficient": 0.9256970344213978
+        },
+        {
+            "Loss": 0.08428514003753662,
+            "F1 Score (macro)": 0.9232952592213826,
+            "Precision (macro)": 0.9270851476446954,
+            "Recall (macro)": 0.9200526607221216,
+            "AUROC": 0.9920754467850048,
+            "Accuracy": 0.932806324110672,
+            "Cohen's Kappa": 0.9174593629856131,
+            "Matthews Correlation Coefficient": 0.9175990806077765
+        },
+        {
+            "Loss": 0.08214309811592102,
+            "F1 Score (macro)": 0.928693407838451,
+            "Precision (macro)": 0.928539612161363,
+            "Recall (macro)": 0.9293632547726703,
+            "AUROC": 0.9926265916702232,
+            "Accuracy": 0.9354413702239789,
+            "Cohen's Kappa": 0.9207560677827424,
+            "Matthews Correlation Coefficient": 0.9208582224216448
+        },
+        {
+            "Loss": 0.08253363519906998,
+            "F1 Score (macro)": 0.9236836157137095,
+            "Precision (macro)": 0.9259487775375593,
+            "Recall (macro)": 0.9217170878296567,
+            "AUROC": 0.9925058165088881,
+            "Accuracy": 0.9314888010540184,
+            "Cohen's Kappa": 0.9158798429620663,
+            "Matthews Correlation Coefficient": 0.9159523551822351
+        },
+        {
+            "Loss": 0.08247960358858109,
+            "F1 Score (macro)": 0.9292177216587926,
+            "Precision (macro)": 0.9339520364086124,
+            "Recall (macro)": 0.9258986745248098,
+            "AUROC": 0.9920417915723458,
+            "Accuracy": 0.9367588932806324,
+            "Cohen's Kappa": 0.9223193325330439,
+            "Matthews Correlation Coefficient": 0.9226547684483888
+        },
+        {
+            "Loss": 0.08316449820995331,
+            "F1 Score (macro)": 0.9298451038721384,
+            "Precision (macro)": 0.9340635065333461,
+            "Recall (macro)": 0.9261005420029153,
+            "AUROC": 0.9931598857028893,
+            "Accuracy": 0.9407114624505929,
+            "Cohen's Kappa": 0.9271568234360738,
+            "Matthews Correlation Coefficient": 0.9272547028484509
+        },
+        {
+            "Loss": 0.0819515660405159,
+            "F1 Score (macro)": 0.9260167936274496,
+            "Precision (macro)": 0.9262303890996724,
+            "Recall (macro)": 0.926601667271128,
+            "AUROC": 0.9931082883602228,
+            "Accuracy": 0.9354413702239789,
+            "Cohen's Kappa": 0.9207528595537221,
+            "Matthews Correlation Coefficient": 0.9209296600343969
+        },
+        {
+            "Loss": 0.08127899467945099,
+            "F1 Score (macro)": 0.9283022179693607,
+            "Precision (macro)": 0.9291895549760243,
+            "Recall (macro)": 0.92764097068448,
+            "AUROC": 0.9928655570259718,
+            "Accuracy": 0.9380764163372859,
+            "Cohen's Kappa": 0.9239911618125529,
+            "Matthews Correlation Coefficient": 0.9240503289342119
+        },
+        {
+            "Loss": 0.08140469342470169,
+            "F1 Score (macro)": 0.9286135670644086,
+            "Precision (macro)": 0.932099952593083,
+            "Recall (macro)": 0.9255838720688713,
+            "AUROC": 0.9934002037354815,
+            "Accuracy": 0.9367588932806324,
+            "Cohen's Kappa": 0.9223344020738113,
+            "Matthews Correlation Coefficient": 0.9224154856225727
+        },
+        {
+            "Loss": 0.08093709498643875,
+            "F1 Score (macro)": 0.9347465570571442,
+            "Precision (macro)": 0.9373422773578012,
+            "Recall (macro)": 0.9323826209109455,
+            "AUROC": 0.9932435839894267,
+            "Accuracy": 0.9420289855072463,
+            "Cohen's Kappa": 0.928804258612199,
+            "Matthews Correlation Coefficient": 0.9288681019547437
+        },
+        {
+            "Loss": 0.0796380341053009,
+            "F1 Score (macro)": 0.9362910452982991,
+            "Precision (macro)": 0.9308311975504083,
+            "Recall (macro)": 0.9437303115636254,
+            "AUROC": 0.9926636154191265,
+            "Accuracy": 0.9446640316205533,
+            "Cohen's Kappa": 0.9322015874501264,
+            "Matthews Correlation Coefficient": 0.9323470976100559
+        },
+        {
+            "Loss": 0.081226646900177,
+            "F1 Score (macro)": 0.9420338539271232,
+            "Precision (macro)": 0.9441098635462124,
+            "Recall (macro)": 0.9404360946050372,
+            "AUROC": 0.9919465237825978,
+            "Accuracy": 0.9499341238471674,
+            "Cohen's Kappa": 0.9385364855707143,
+            "Matthews Correlation Coefficient": 0.9386527217377442
+        },
+        {
+            "Loss": 0.07968773692846298,
+            "F1 Score (macro)": 0.9368884480432577,
+            "Precision (macro)": 0.9413164008768149,
+            "Recall (macro)": 0.9330347566210734,
+            "AUROC": 0.9936377725163821,
+            "Accuracy": 0.9446640316205533,
+            "Cohen's Kappa": 0.9320389798385291,
+            "Matthews Correlation Coefficient": 0.9321030672403792
+        },
+        {
+            "Loss": 0.07924193888902664,
+            "F1 Score (macro)": 0.9326909622547617,
+            "Precision (macro)": 0.9373228222937833,
+            "Recall (macro)": 0.9286672481587716,
+            "AUROC": 0.9950207498165099,
+            "Accuracy": 0.9433465085638999,
+            "Cohen's Kappa": 0.9304057267022204,
+            "Matthews Correlation Coefficient": 0.930491801986159
+        },
+        {
+            "Loss": 0.07966811954975128,
+            "F1 Score (macro)": 0.9399669676285131,
+            "Precision (macro)": 0.9402774240697679,
+            "Recall (macro)": 0.940159350354027,
+            "AUROC": 0.9928097993079055,
+            "Accuracy": 0.9499341238471674,
+            "Cohen's Kappa": 0.9385516756503398,
+            "Matthews Correlation Coefficient": 0.938669756360154
+        },
+        {
+            "Loss": 0.07920830696821213,
+            "F1 Score (macro)": 0.9399700538270034,
+            "Precision (macro)": 0.9415564353325837,
+            "Recall (macro)": 0.9388992725435812,
+            "AUROC": 0.9934336424728257,
+            "Accuracy": 0.9499341238471674,
+            "Cohen's Kappa": 0.9385521993122755,
+            "Matthews Correlation Coefficient": 0.9386722765694752
+        },
+        {
+            "Loss": 0.07951251417398453,
+            "F1 Score (macro)": 0.9332169124702899,
+            "Precision (macro)": 0.9389353525591363,
+            "Recall (macro)": 0.9284709193107572,
+            "AUROC": 0.9940369891761273,
+            "Accuracy": 0.9433465085638999,
+            "Cohen's Kappa": 0.9303804893865283,
+            "Matthews Correlation Coefficient": 0.930562536803284
+        },
+        {
+            "Loss": 0.0779065415263176,
+            "F1 Score (macro)": 0.937840244310185,
+            "Precision (macro)": 0.9367746317845079,
+            "Recall (macro)": 0.9393823416203437,
+            "AUROC": 0.9943417376334146,
+            "Accuracy": 0.9459815546772069,
+            "Cohen's Kappa": 0.9337246374650989,
+            "Matthews Correlation Coefficient": 0.9338260680148449
+        },
+        {
+            "Loss": 0.07817583531141281,
+            "F1 Score (macro)": 0.9436159899647603,
+            "Precision (macro)": 0.9435982001210078,
+            "Recall (macro)": 0.9439731808886025,
+            "AUROC": 0.9942458229220937,
+            "Accuracy": 0.9512516469038208,
+            "Cohen's Kappa": 0.9401726881706686,
+            "Matthews Correlation Coefficient": 0.9402568709440079
+        },
+        {
+            "Loss": 0.07870358228683472,
+            "F1 Score (macro)": 0.9371012376582089,
+            "Precision (macro)": 0.941724531247932,
+            "Recall (macro)": 0.9331817145145102,
+            "AUROC": 0.9945054839586489,
+            "Accuracy": 0.9459815546772069,
+            "Cohen's Kappa": 0.933628092087583,
+            "Matthews Correlation Coefficient": 0.9337825936794145
+        },
+        {
+            "Loss": 0.07799825817346573,
+            "F1 Score (macro)": 0.9415614890706324,
+            "Precision (macro)": 0.9431207794204498,
+            "Recall (macro)": 0.940724931502234,
+            "AUROC": 0.9950128884345547,
+            "Accuracy": 0.9472990777338604,
+            "Cohen's Kappa": 0.935300736497545,
+            "Matthews Correlation Coefficient": 0.9354983902494678
+        },
+        {
+            "Loss": 0.0791371688246727,
+            "F1 Score (macro)": 0.9336820354408335,
+            "Precision (macro)": 0.9377199730156351,
+            "Recall (macro)": 0.9304301330487079,
+            "AUROC": 0.9943968848072094,
+            "Accuracy": 0.9446640316205533,
+            "Cohen's Kappa": 0.9320276767913686,
+            "Matthews Correlation Coefficient": 0.9322153513427065
+        },
+        {
+            "Loss": 0.07853840291500092,
+            "F1 Score (macro)": 0.9375629187848941,
+            "Precision (macro)": 0.9417388209389559,
+            "Recall (macro)": 0.9341525057453466,
+            "AUROC": 0.9940477389274623,
+            "Accuracy": 0.9459815546772069,
+            "Cohen's Kappa": 0.9336419621457024,
+            "Matthews Correlation Coefficient": 0.9338400247560977
+        },
+        {
+            "Loss": 0.07867244631052017,
+            "F1 Score (macro)": 0.9417024766466365,
+            "Precision (macro)": 0.9461542613531897,
+            "Recall (macro)": 0.9378085115652054,
+            "AUROC": 0.9941293107963828,
+            "Accuracy": 0.9499341238471674,
+            "Cohen's Kappa": 0.9385106714109372,
+            "Matthews Correlation Coefficient": 0.9385732139230519
+        },
+        {
+            "Loss": 0.07797641307115555,
+            "F1 Score (macro)": 0.9421252924393909,
+            "Precision (macro)": 0.9442014274276448,
+            "Recall (macro)": 0.9407089719792321,
+            "AUROC": 0.9941543284641504,
+            "Accuracy": 0.9499341238471674,
+            "Cohen's Kappa": 0.9385426410768356,
+            "Matthews Correlation Coefficient": 0.9387088492552047
+        },
+        {
+            "Loss": 0.07782676815986633,
+            "F1 Score (macro)": 0.9459066349858429,
+            "Precision (macro)": 0.9466215975731164,
+            "Recall (macro)": 0.9454087247480446,
+            "AUROC": 0.9942713572579979,
+            "Accuracy": 0.9525691699604744,
+            "Cohen's Kappa": 0.9417886504485581,
+            "Matthews Correlation Coefficient": 0.9418468889407002
+        },
+        {
+            "Loss": 0.07808837294578552,
+            "F1 Score (macro)": 0.9426150412885833,
+            "Precision (macro)": 0.942122455960614,
+            "Recall (macro)": 0.9438893583492055,
+            "AUROC": 0.9939067781538712,
+            "Accuracy": 0.9499341238471674,
+            "Cohen's Kappa": 0.9385887027230743,
+            "Matthews Correlation Coefficient": 0.9387686044431937
+        },
+        {
+            "Loss": 0.07831018418073654,
+            "F1 Score (macro)": 0.9360753952875468,
+            "Precision (macro)": 0.9393551794205278,
+            "Recall (macro)": 0.9335450133274411,
+            "AUROC": 0.9939104838589791,
+            "Accuracy": 0.9446640316205533,
+            "Cohen's Kappa": 0.9320608506992545,
+            "Matthews Correlation Coefficient": 0.9322141351317728
+        },
+        {
+            "Loss": 0.07795174419879913,
+            "F1 Score (macro)": 0.9389684621423342,
+            "Precision (macro)": 0.9385692955821066,
+            "Recall (macro)": 0.9404596894265788,
+            "AUROC": 0.9934465354603592,
+            "Accuracy": 0.9459815546772069,
+            "Cohen's Kappa": 0.9337489062470061,
+            "Matthews Correlation Coefficient": 0.9340034386422241
+        },
+        {
+            "Loss": 0.07845482975244522,
+            "F1 Score (macro)": 0.9396022951563078,
+            "Precision (macro)": 0.9415320549785141,
+            "Recall (macro)": 0.9385444698147299,
+            "AUROC": 0.9928684553467256,
+            "Accuracy": 0.9472990777338604,
+            "Cohen's Kappa": 0.9353212738896926,
+            "Matthews Correlation Coefficient": 0.9355326449058847
+        },
+        {
+            "Loss": 0.07952345907688141,
+            "F1 Score (macro)": 0.9284226963392329,
+            "Precision (macro)": 0.9333788634519551,
+            "Recall (macro)": 0.9244052460606224,
+            "AUROC": 0.9936265505000411,
+            "Accuracy": 0.9380764163372859,
+            "Cohen's Kappa": 0.9239384906674172,
+            "Matthews Correlation Coefficient": 0.9241146189016791
+        },
+        {
+            "Loss": 0.07647299766540527,
+            "F1 Score (macro)": 0.9448012550666153,
+            "Precision (macro)": 0.9461573560363883,
+            "Recall (macro)": 0.943918717232303,
+            "AUROC": 0.9950850107725859,
+            "Accuracy": 0.9512516469038208,
+            "Cohen's Kappa": 0.9401562420088989,
+            "Matthews Correlation Coefficient": 0.9402927032581073
+        },
+        {
+            "Loss": 0.07705505192279816,
+            "F1 Score (macro)": 0.9448477970398379,
+            "Precision (macro)": 0.9444426356330284,
+            "Recall (macro)": 0.9457080173633936,
+            "AUROC": 0.9942592862089651,
+            "Accuracy": 0.9512516469038208,
+            "Cohen's Kappa": 0.9401673345988891,
+            "Matthews Correlation Coefficient": 0.9402495520550991
+        },
+        {
+            "Loss": 0.07561402767896652,
+            "F1 Score (macro)": 0.9489348335283267,
+            "Precision (macro)": 0.9462857104653799,
+            "Recall (macro)": 0.9525348284326584,
+            "AUROC": 0.9946037179327828,
+            "Accuracy": 0.9538866930171278,
+            "Cohen's Kappa": 0.9434583924858088,
+            "Matthews Correlation Coefficient": 0.9436111534104982
+        },
+        {
+            "Loss": 0.07628845423460007,
+            "F1 Score (macro)": 0.9403360091409381,
+            "Precision (macro)": 0.9382868522014806,
+            "Recall (macro)": 0.9437593963779712,
+            "AUROC": 0.9946926946663456,
+            "Accuracy": 0.9472990777338604,
+            "Cohen's Kappa": 0.9353808824468425,
+            "Matthews Correlation Coefficient": 0.9356458155582955
+        },
+        {
+            "Loss": 0.07816797494888306,
+            "F1 Score (macro)": 0.9323533822885555,
+            "Precision (macro)": 0.934402995893291,
+            "Recall (macro)": 0.9320375639611278,
+            "AUROC": 0.9944974026964091,
+            "Accuracy": 0.9420289855072463,
+            "Cohen's Kappa": 0.9288868825300564,
+            "Matthews Correlation Coefficient": 0.9292806838095966
+        },
+        {
+            "Loss": 0.0783805102109909,
+            "F1 Score (macro)": 0.9342785329347033,
+            "Precision (macro)": 0.9346241523143096,
+            "Recall (macro)": 0.9347606335173273,
+            "AUROC": 0.9945078690071533,
+            "Accuracy": 0.9433465085638999,
+            "Cohen's Kappa": 0.9304859191228152,
+            "Matthews Correlation Coefficient": 0.9307000403834941
+        },
+        {
+            "Loss": 0.07532165944576263,
+            "F1 Score (macro)": 0.9338413293500508,
+            "Precision (macro)": 0.9273686728216837,
+            "Recall (macro)": 0.9433865788938048,
+            "AUROC": 0.9947200236877908,
+            "Accuracy": 0.9407114624505929,
+            "Cohen's Kappa": 0.927380466397918,
+            "Matthews Correlation Coefficient": 0.9275885973581522
+        },
+        {
+            "Loss": 0.07687171548604965,
+            "F1 Score (macro)": 0.9405669521129627,
+            "Precision (macro)": 0.938222474517262,
+            "Recall (macro)": 0.9439597677164615,
+            "AUROC": 0.993664515710142,
+            "Accuracy": 0.9446640316205533,
+            "Cohen's Kappa": 0.9321464604538895,
+            "Matthews Correlation Coefficient": 0.9323410216269884
+        },
+        {
+            "Loss": 0.07721485942602158,
+            "F1 Score (macro)": 0.9401414261766954,
+            "Precision (macro)": 0.9381650700253897,
+            "Recall (macro)": 0.942631641217958,
+            "AUROC": 0.993758446240626,
+            "Accuracy": 0.9472990777338604,
+            "Cohen's Kappa": 0.935351849052104,
+            "Matthews Correlation Coefficient": 0.9353996661289259
+        },
+        {
+            "Loss": 0.07558896392583847,
+            "F1 Score (macro)": 0.9464870585933487,
+            "Precision (macro)": 0.9422379895323973,
+            "Recall (macro)": 0.9525667336666167,
+            "AUROC": 0.9942792983123621,
+            "Accuracy": 0.9525691699604744,
+            "Cohen's Kappa": 0.9418523239704878,
+            "Matthews Correlation Coefficient": 0.9420269308474958
+        },
+        {
+            "Loss": 0.0763312354683876,
+            "F1 Score (macro)": 0.9392402193643316,
+            "Precision (macro)": 0.936784865972785,
+            "Recall (macro)": 0.942596729892724,
+            "AUROC": 0.9946375909220233,
+            "Accuracy": 0.9459815546772069,
+            "Cohen's Kappa": 0.9337635717736906,
+            "Matthews Correlation Coefficient": 0.9339048178918087
+        },
+        {
+            "Loss": 0.07684410363435745,
+            "F1 Score (macro)": 0.9402201285057212,
+            "Precision (macro)": 0.937345521233198,
+            "Recall (macro)": 0.9438472614078441,
+            "AUROC": 0.9948044177043648,
+            "Accuracy": 0.9459815546772069,
+            "Cohen's Kappa": 0.9337469315455217,
+            "Matthews Correlation Coefficient": 0.9338006612963663
+        },
+        {
+            "Loss": 0.07610871642827988,
+            "F1 Score (macro)": 0.9326481880829706,
+            "Precision (macro)": 0.931366009810637,
+            "Recall (macro)": 0.935125843327044,
+            "AUROC": 0.9952669056011398,
+            "Accuracy": 0.9433465085638999,
+            "Cohen's Kappa": 0.9305261679020125,
+            "Matthews Correlation Coefficient": 0.9307778331500235
+        },
+        {
+            "Loss": 0.07783972471952438,
+            "F1 Score (macro)": 0.9321938345459239,
+            "Precision (macro)": 0.92912157625664,
+            "Recall (macro)": 0.9364467980214654,
+            "AUROC": 0.9937399613575697,
+            "Accuracy": 0.9407114624505929,
+            "Cohen's Kappa": 0.9272853849052507,
+            "Matthews Correlation Coefficient": 0.9273900704182617
+        },
+        {
+            "Loss": 0.07804842293262482,
+            "F1 Score (macro)": 0.9401967288588148,
+            "Precision (macro)": 0.9388814598195315,
+            "Recall (macro)": 0.9421494329267355,
+            "AUROC": 0.9938228028278732,
+            "Accuracy": 0.9486166007905138,
+            "Cohen's Kappa": 0.9369672474995369,
+            "Matthews Correlation Coefficient": 0.9370929638026396
+        },
+        {
+            "Loss": 0.07808906584978104,
+            "F1 Score (macro)": 0.935412131821942,
+            "Precision (macro)": 0.9295290394859607,
+            "Recall (macro)": 0.9439557390380305,
+            "AUROC": 0.9932743881525857,
+            "Accuracy": 0.9433465085638999,
+            "Cohen's Kappa": 0.9306208347948088,
+            "Matthews Correlation Coefficient": 0.9309307135471332
+        },
+        {
+            "Loss": 0.07709140330553055,
+            "F1 Score (macro)": 0.9404059315037628,
+            "Precision (macro)": 0.9347604851339278,
+            "Recall (macro)": 0.948710991862343,
+            "AUROC": 0.9937319497040159,
+            "Accuracy": 0.9472990777338604,
+            "Cohen's Kappa": 0.9354256884948826,
+            "Matthews Correlation Coefficient": 0.9356272970946188
+        },
+        {
+            "Loss": 0.07738376408815384,
+            "F1 Score (macro)": 0.933174698537757,
+            "Precision (macro)": 0.9316621203386813,
+            "Recall (macro)": 0.9357103900895284,
+            "AUROC": 0.9940037169132664,
+            "Accuracy": 0.9407114624505929,
+            "Cohen's Kappa": 0.927292195752272,
+            "Matthews Correlation Coefficient": 0.927503497775991
+        },
+        {
+            "Loss": 0.07740893959999084,
+            "F1 Score (macro)": 0.9348225924149317,
+            "Precision (macro)": 0.9322817768454054,
+            "Recall (macro)": 0.9382415982033624,
+            "AUROC": 0.9930163660333394,
+            "Accuracy": 0.9433465085638999,
+            "Cohen's Kappa": 0.9305301606424848,
+            "Matthews Correlation Coefficient": 0.9306768486909428
+        },
+        {
+            "Loss": 0.07653363049030304,
+            "F1 Score (macro)": 0.9393638717161871,
+            "Precision (macro)": 0.9375592354114565,
+            "Recall (macro)": 0.9417346765487805,
+            "AUROC": 0.993897836328339,
+            "Accuracy": 0.9459815546772069,
+            "Cohen's Kappa": 0.9337290128031484,
+            "Matthews Correlation Coefficient": 0.9337966266442311
+        },
+        {
+            "Loss": 0.07711602747440338,
+            "F1 Score (macro)": 0.9455361292925956,
+            "Precision (macro)": 0.9428911312476272,
+            "Recall (macro)": 0.9488777724015538,
+            "AUROC": 0.9928226860074257,
+            "Accuracy": 0.9525691699604744,
+            "Cohen's Kappa": 0.9418363567472295,
+            "Matthews Correlation Coefficient": 0.9419427192440354
+        },
+        {
+            "Loss": 0.08010436594486237,
+            "F1 Score (macro)": 0.9263724223755743,
+            "Precision (macro)": 0.9228470980930271,
+            "Recall (macro)": 0.9316791684242128,
+            "AUROC": 0.9925100403488986,
+            "Accuracy": 0.9380764163372859,
+            "Cohen's Kappa": 0.9240856247246819,
+            "Matthews Correlation Coefficient": 0.9242628394696396
+        },
+        {
+            "Loss": 0.07888288050889969,
+            "F1 Score (macro)": 0.9265602735925876,
+            "Precision (macro)": 0.9278200304671933,
+            "Recall (macro)": 0.9261934611552252,
+            "AUROC": 0.9929974594410176,
+            "Accuracy": 0.9393939393939394,
+            "Cohen's Kappa": 0.925613759984319,
+            "Matthews Correlation Coefficient": 0.9258269382072006
+        },
+        {
+            "Loss": 0.07785102725028992,
+            "F1 Score (macro)": 0.92896970258104,
+            "Precision (macro)": 0.9242403655889913,
+            "Recall (macro)": 0.9361860233514588,
+            "AUROC": 0.9922663049804424,
+            "Accuracy": 0.9407114624505929,
+            "Cohen's Kappa": 0.9273586892023812,
+            "Matthews Correlation Coefficient": 0.9276394305542406
+        },
+        {
+            "Loss": 0.07978378981351852,
+            "F1 Score (macro)": 0.9384955178013339,
+            "Precision (macro)": 0.9426863295000519,
+            "Recall (macro)": 0.9351297240159044,
+            "AUROC": 0.9926146974853972,
+            "Accuracy": 0.9459815546772069,
+            "Cohen's Kappa": 0.9336667156934844,
+            "Matthews Correlation Coefficient": 0.9337905486892221
+        },
+        {
+            "Loss": 0.07470909506082535,
+            "F1 Score (macro)": 0.9439082282865104,
+            "Precision (macro)": 0.9382686755114821,
+            "Recall (macro)": 0.9510303713455753,
+            "AUROC": 0.9950551407347675,
+            "Accuracy": 0.9512516469038208,
+            "Cohen's Kappa": 0.9402809557428783,
+            "Matthews Correlation Coefficient": 0.9403879346494849
+        },
+        {
+            "Loss": 0.0755787119269371,
+            "F1 Score (macro)": 0.9547204987994462,
+            "Precision (macro)": 0.952111229603858,
+            "Recall (macro)": 0.9579594832040094,
+            "AUROC": 0.9933221208631174,
+            "Accuracy": 0.9578392621870883,
+            "Cohen's Kappa": 0.9482916090958057,
+            "Matthews Correlation Coefficient": 0.9483744415102047
+        },
+        {
+            "Loss": 0.07831833511590958,
+            "F1 Score (macro)": 0.9326052277595543,
+            "Precision (macro)": 0.9299743326691196,
+            "Recall (macro)": 0.9376611077433993,
+            "AUROC": 0.9927713596510298,
+            "Accuracy": 0.9393939393939394,
+            "Cohen's Kappa": 0.9257232695036517,
+            "Matthews Correlation Coefficient": 0.9261786214655295
+        },
+        {
+            "Loss": 0.07696688920259476,
+            "F1 Score (macro)": 0.9363143554225886,
+            "Precision (macro)": 0.9360892183719751,
+            "Recall (macro)": 0.9372029301440857,
+            "AUROC": 0.9938294203996197,
+            "Accuracy": 0.9433465085638999,
+            "Cohen's Kappa": 0.9304681474790256,
+            "Matthews Correlation Coefficient": 0.9306109864991287
+        },
+        {
+            "Loss": 0.0750441923737526,
+            "F1 Score (macro)": 0.9464803588337899,
+            "Precision (macro)": 0.9438891734466447,
+            "Recall (macro)": 0.9509888473089573,
+            "AUROC": 0.9942831437037442,
+            "Accuracy": 0.9499341238471674,
+            "Cohen's Kappa": 0.9386096170178347,
+            "Matthews Correlation Coefficient": 0.9389733923461964
+        },
+        {
+            "Loss": 0.07463445514440536,
+            "F1 Score (macro)": 0.9482016970130577,
+            "Precision (macro)": 0.943238540341392,
+            "Recall (macro)": 0.9557518615109905,
+            "AUROC": 0.9928352954221578,
+            "Accuracy": 0.9525691699604744,
+            "Cohen's Kappa": 0.9418707558248379,
+            "Matthews Correlation Coefficient": 0.9421577143004283
+        },
+        {
+            "Loss": 0.0746820941567421,
+            "F1 Score (macro)": 0.9436990948450434,
+            "Precision (macro)": 0.9367204763015357,
+            "Recall (macro)": 0.9529094437492818,
+            "AUROC": 0.9933488554177297,
+            "Accuracy": 0.9512516469038208,
+            "Cohen's Kappa": 0.9402999987244952,
+            "Matthews Correlation Coefficient": 0.9404194040002698
+        },
+        {
+            "Loss": 0.07652592658996582,
+            "F1 Score (macro)": 0.9331497114788628,
+            "Precision (macro)": 0.9302141413111129,
+            "Recall (macro)": 0.9379982691379706,
+            "AUROC": 0.9927328697960379,
+            "Accuracy": 0.9380764163372859,
+            "Cohen's Kappa": 0.9240967700753224,
+            "Matthews Correlation Coefficient": 0.9244057713657576
+        },
+        {
+            "Loss": 0.07869142293930054,
+            "F1 Score (macro)": 0.9325102351853709,
+            "Precision (macro)": 0.9372176087272303,
+            "Recall (macro)": 0.9286581167206163,
+            "AUROC": 0.993397695463388,
+            "Accuracy": 0.9380764163372859,
+            "Cohen's Kappa": 0.9239113973999381,
+            "Matthews Correlation Coefficient": 0.9241157119729583
+        },
+        {
+            "Loss": 0.07577505707740784,
+            "F1 Score (macro)": 0.9317309759680187,
+            "Precision (macro)": 0.927148692088458,
+            "Recall (macro)": 0.9391830204930991,
+            "AUROC": 0.9934744180852184,
+            "Accuracy": 0.9393939393939394,
+            "Cohen's Kappa": 0.9257344870714961,
+            "Matthews Correlation Coefficient": 0.9260756684025889
+        },
+        {
+            "Loss": 0.0769108310341835,
+            "F1 Score (macro)": 0.9348109563603026,
+            "Precision (macro)": 0.9294518042986275,
+            "Recall (macro)": 0.9437619427288322,
+            "AUROC": 0.9931335132573299,
+            "Accuracy": 0.9380764163372859,
+            "Cohen's Kappa": 0.9241664753450167,
+            "Matthews Correlation Coefficient": 0.9246725048776393
+        },
+        {
+            "Loss": 0.07569433748722076,
+            "F1 Score (macro)": 0.9451198756664326,
+            "Precision (macro)": 0.9421317169534037,
+            "Recall (macro)": 0.949222569094665,
+            "AUROC": 0.9919868834334045,
+            "Accuracy": 0.9499341238471674,
+            "Cohen's Kappa": 0.9386293418219268,
+            "Matthews Correlation Coefficient": 0.9388173860705845
+        },
+        {
+            "Loss": 0.07554054260253906,
+            "F1 Score (macro)": 0.9455389443884564,
+            "Precision (macro)": 0.9409886596698102,
+            "Recall (macro)": 0.9515984850325981,
+            "AUROC": 0.9934796260929687,
+            "Accuracy": 0.9499341238471674,
+            "Cohen's Kappa": 0.9386446165660811,
+            "Matthews Correlation Coefficient": 0.9388328221242906
+        },
+        {
+            "Loss": 0.07972492277622223,
+            "F1 Score (macro)": 0.9306365589938416,
+            "Precision (macro)": 0.9295419505938507,
+            "Recall (macro)": 0.9331257547185956,
+            "AUROC": 0.9901522105319968,
+            "Accuracy": 0.9393939393939394,
+            "Cohen's Kappa": 0.9256514600755112,
+            "Matthews Correlation Coefficient": 0.9259235654998432
+        },
+        {
+            "Loss": 0.08026860654354095,
+            "F1 Score (macro)": 0.9259237173401934,
+            "Precision (macro)": 0.9297057826885212,
+            "Recall (macro)": 0.9229741595488269,
+            "AUROC": 0.9917085426344207,
+            "Accuracy": 0.9354413702239789,
+            "Cohen's Kappa": 0.9206855958337066,
+            "Matthews Correlation Coefficient": 0.9208771395699313
+        },
+        {
+            "Loss": 0.07991522550582886,
+            "F1 Score (macro)": 0.9185951632856134,
+            "Precision (macro)": 0.9124412896172811,
+            "Recall (macro)": 0.9272893634726102,
+            "AUROC": 0.9916443455925025,
+            "Accuracy": 0.9314888010540184,
+            "Cohen's Kappa": 0.9161042511175684,
+            "Matthews Correlation Coefficient": 0.9162265435931779
+        },
+        {
+            "Loss": 0.07789289951324463,
+            "F1 Score (macro)": 0.937407126479712,
+            "Precision (macro)": 0.9368251737073131,
+            "Recall (macro)": 0.9385863948964736,
+            "AUROC": 0.9928639504323243,
+            "Accuracy": 0.9472990777338604,
+            "Cohen's Kappa": 0.935344414511303,
+            "Matthews Correlation Coefficient": 0.9354798866864942
+        },
+        {
+            "Loss": 0.08050165325403214,
+            "F1 Score (macro)": 0.9280764125007614,
+            "Precision (macro)": 0.9274128925589493,
+            "Recall (macro)": 0.9288231756887475,
+            "AUROC": 0.9916586504078184,
+            "Accuracy": 0.9420289855072463,
+            "Cohen's Kappa": 0.9288796132631982,
+            "Matthews Correlation Coefficient": 0.9288914871644469
+        },
+        {
+            "Loss": 0.08454498648643494,
+            "F1 Score (macro)": 0.9157236285643201,
+            "Precision (macro)": 0.9280899199587015,
+            "Recall (macro)": 0.9062260803061717,
+            "AUROC": 0.9912095284533939,
+            "Accuracy": 0.9288537549407114,
+            "Cohen's Kappa": 0.9124445916067633,
+            "Matthews Correlation Coefficient": 0.9127538187209447
+        },
+        {
+            "Loss": 0.07880700379610062,
+            "F1 Score (macro)": 0.9274080950056273,
+            "Precision (macro)": 0.9290890671099175,
+            "Recall (macro)": 0.9259986284468261,
+            "AUROC": 0.9927890485788046,
+            "Accuracy": 0.9393939393939394,
+            "Cohen's Kappa": 0.9256069445450632,
+            "Matthews Correlation Coefficient": 0.9256583310284561
+        },
+        {
+            "Loss": 0.08250102400779724,
+            "F1 Score (macro)": 0.9367719714598465,
+            "Precision (macro)": 0.936158256655923,
+            "Recall (macro)": 0.9377638820850284,
+            "AUROC": 0.9895079151492431,
+            "Accuracy": 0.9446640316205533,
+            "Cohen's Kappa": 0.9320897970661293,
+            "Matthews Correlation Coefficient": 0.9321513935621071
+        },
+        {
+            "Loss": 0.07982078194618225,
+            "F1 Score (macro)": 0.9142327412959296,
+            "Precision (macro)": 0.9108419854694073,
+            "Recall (macro)": 0.9199956544690041,
+            "AUROC": 0.9924453424902967,
+            "Accuracy": 0.9288537549407114,
+            "Cohen's Kappa": 0.9127708751005605,
+            "Matthews Correlation Coefficient": 0.9129322884569874
+        },
+        {
+            "Loss": 0.07762537151575089,
+            "F1 Score (macro)": 0.9258734303229502,
+            "Precision (macro)": 0.9200858884860978,
+            "Recall (macro)": 0.9363302630344169,
+            "AUROC": 0.9911800167775787,
+            "Accuracy": 0.9341238471673254,
+            "Cohen's Kappa": 0.9193138595189447,
+            "Matthews Correlation Coefficient": 0.9197839076988333
+        },
+        {
+            "Loss": 0.0819990336894989,
+            "F1 Score (macro)": 0.9206938062210234,
+            "Precision (macro)": 0.9184272807202053,
+            "Recall (macro)": 0.9245879898768781,
+            "AUROC": 0.9886031309475108,
+            "Accuracy": 0.927536231884058,
+            "Cohen's Kappa": 0.9111095495748718,
+            "Matthews Correlation Coefficient": 0.9113579493456214
+        },
+        {
+            "Loss": 0.07984484732151031,
+            "F1 Score (macro)": 0.921272160449766,
+            "Precision (macro)": 0.9156906999559302,
+            "Recall (macro)": 0.9298988278716595,
+            "AUROC": 0.9908405260994125,
+            "Accuracy": 0.932806324110672,
+            "Cohen's Kappa": 0.9176861359968188,
+            "Matthews Correlation Coefficient": 0.9179367788448057
+        },
+        {
+            "Loss": 0.07733484357595444,
+            "F1 Score (macro)": 0.937011932460365,
+            "Precision (macro)": 0.9329366885819845,
+            "Recall (macro)": 0.9417321440099645,
+            "AUROC": 0.9938123686260686,
+            "Accuracy": 0.9446640316205533,
+            "Cohen's Kappa": 0.9321698498621183,
+            "Matthews Correlation Coefficient": 0.9322099149222985
+        },
+        {
+            "Loss": 0.07900972664356232,
+            "F1 Score (macro)": 0.9185555316890884,
+            "Precision (macro)": 0.9113939279263391,
+            "Recall (macro)": 0.930972596681876,
+            "AUROC": 0.9934631384305704,
+            "Accuracy": 0.927536231884058,
+            "Cohen's Kappa": 0.9113035164134707,
+            "Matthews Correlation Coefficient": 0.9117024014904851
+        },
+        {
+            "Loss": 0.08284862339496613,
+            "F1 Score (macro)": 0.9210130391344008,
+            "Precision (macro)": 0.9235337007988362,
+            "Recall (macro)": 0.919373077125682,
+            "AUROC": 0.9902562158965672,
+            "Accuracy": 0.930171277997365,
+            "Cohen's Kappa": 0.9142732931696953,
+            "Matthews Correlation Coefficient": 0.9144762590479113
+        },
+        {
+            "Loss": 0.08603638410568237,
+            "F1 Score (macro)": 0.911398932487392,
+            "Precision (macro)": 0.9182869017327282,
+            "Recall (macro)": 0.9062695153395754,
+            "AUROC": 0.9885394744771517,
+            "Accuracy": 0.924901185770751,
+            "Cohen's Kappa": 0.9076675836664483,
+            "Matthews Correlation Coefficient": 0.9080851724449639
+        },
+        {
+            "Loss": 0.08189547061920166,
+            "F1 Score (macro)": 0.918775602046043,
+            "Precision (macro)": 0.9147703884972792,
+            "Recall (macro)": 0.9248079135464339,
+            "AUROC": 0.9894152184421227,
+            "Accuracy": 0.930171277997365,
+            "Cohen's Kappa": 0.9144079066353181,
+            "Matthews Correlation Coefficient": 0.9145716741307478
+        },
+        {
+            "Loss": 0.08408618718385696,
+            "F1 Score (macro)": 0.9226219589536004,
+            "Precision (macro)": 0.9305992275892551,
+            "Recall (macro)": 0.9163900560029236,
+            "AUROC": 0.9872755824169929,
+            "Accuracy": 0.9314888010540184,
+            "Cohen's Kappa": 0.9157640419941905,
+            "Matthews Correlation Coefficient": 0.9160815193023624
+        },
+        {
+            "Loss": 0.08213363587856293,
+            "F1 Score (macro)": 0.929506270151374,
+            "Precision (macro)": 0.9453310150421045,
+            "Recall (macro)": 0.9189354845025913,
+            "AUROC": 0.9892873112594568,
+            "Accuracy": 0.9407114624505929,
+            "Cohen's Kappa": 0.9270994525255328,
+            "Matthews Correlation Coefficient": 0.9273237494893138
+        }
+    ]
+}

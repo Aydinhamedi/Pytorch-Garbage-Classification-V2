@@ -2,14 +2,14 @@
 #                 Ignore project base files                #
 ############################################################
 
-/Cache
-/Logs/others
+/Cache/Dataset
+/Cache/weights
 /Database/Data
-/Database/Data_
-/Debug/Img_Samples
 /Logs/Tensorboard/
+/Debug/Img_Samples
 /model.pth
-/Reports
+Reports/*
+!Reports/*_/
 # Models
 /Models/EfficientNet-B6
 

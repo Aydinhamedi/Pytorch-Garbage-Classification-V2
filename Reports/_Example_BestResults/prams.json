@@ -1,0 +1,223 @@
+{
+    "batch_size": {
+        "creation_line": null,
+        "line_number": null,
+        "type": "int",
+        "value": "16"
+    },
+    "max_epochs": {
+        "creation_line": null,
+        "line_number": null,
+        "type": "int",
+        "value": "512"
+    },
+    "early_stop": {
+        "creation_line": null,
+        "line_number": null,
+        "type": "bool",
+        "value": "True"
+    },
+    "agmentation": {
+        "creation_line": null,
+        "line_number": null,
+        "type": "bool",
+        "value": "True"
+    },
+    "noise_injection": {
+        "creation_line": null,
+        "line_number": null,
+        "type": "bool",
+        "value": "False"
+    },
+    "noise_injection_std": {
+        "creation_line": null,
+        "line_number": null,
+        "type": "float",
+        "value": "0.00025"
+    },
+    "noise_injection_mean": {
+        "creation_line": null,
+        "line_number": null,
+        "type": "float",
+        "value": "0.0"
+    },
+    "augmentation_magnitude": {
+        "creation_line": null,
+        "line_number": null,
+        "type": "int",
+        "value": "2"
+    },
+    "dynamic_agmentation_scaling": {
+        "creation_line": null,
+        "line_number": null,
+        "type": "bool",
+        "value": "True"
+    },
+    "dynamic_agmentation_scaling_fn": {
+        "creation_line": null,
+        "line_number": null,
+        "type": "callable",
+        "name": "<lambda>",
+        "qualname": "<lambda>",
+        "module": "__main__",
+        "args": [
+            "epoch"
+        ],
+        "annotations": {},
+        "defaults": [],
+        "doc": null,
+        "source": "dynamic_agmentation_scaling_fn = lambda epoch: min(epoch / (98 / 1), 8)  # output: magnitude (1-30) | input: epoch\n",
+        "line": 19
+    },
+    "early_stop_patience": {
+        "creation_line": null,
+        "line_number": null,
+        "type": "int",
+        "value": "86"
+    },
+    "train_eval_portion": {
+        "creation_line": null,
+        "line_number": null,
+        "type": "float",
+        "value": "0.14"
+    },
+    "gradient_clipping": {
+        "creation_line": null,
+        "line_number": null,
+        "type": "bool",
+        "value": "True"
+    },
+    "gradient_clipping_max": {
+        "creation_line": null,
+        "line_number": null,
+        "type": "float",
+        "value": "1.2"
+    },
+    "gradient_clipping_method": {
+        "creation_line": null,
+        "line_number": null,
+        "type": "str",
+        "value": "'Norm'"
+    },
+    "agmentation_method": {
+        "creation_line": null,
+        "line_number": null,
+        "type": "str",
+        "value": "'runtime'"
+    },
+    "gradient_accumulation": {
+        "creation_line": null,
+        "line_number": null,
+        "type": "bool",
+        "value": "False"
+    },
+    "gradient_accumulation_steps": {
+        "creation_line": null,
+        "line_number": null,
+        "type": "int",
+        "value": "3"
+    },
+    "exponential_moving_average": {
+        "creation_line": null,
+        "line_number": null,
+        "type": "bool",
+        "value": "True"
+    },
+    "ema_decay": {
+        "creation_line": null,
+        "line_number": null,
+        "type": "float",
+        "value": "0.65"
+    },
+    "lr_scheduler_update_method": {
+        "creation_line": null,
+        "line_number": null,
+        "type": "str",
+        "value": "'Epoch'"
+    },
+    "ema_bn_update_freq": {
+        "creation_line": null,
+        "line_number": null,
+        "type": "float",
+        "value": "inf"
+    },
+    "ema_length": {
+        "creation_line": null,
+        "line_number": null,
+        "type": "str",
+        "value": "'Epoch'"
+    },
+    "profile_lr_scheduler": {
+        "creation_line": null,
+        "line_number": null,
+        "type": "bool",
+        "value": "False"
+    },
+    "ms_normalization": {
+        "creation_line": null,
+        "line_number": null,
+        "type": "bool",
+        "value": "False"
+    },
+    "mixed_precision_training": {
+        "creation_line": null,
+        "line_number": null,
+        "type": "bool",
+        "value": "True"
+    },
+    "data_loader_workers_force": {
+        "creation_line": null,
+        "line_number": null,
+        "type": "NoneType",
+        "value": "None"
+    },
+    "Debug_freq": {
+        "creation_line": null,
+        "line_number": null,
+        "type": "dict",
+        "value": "{'Save_Augmentation_sample': 8, 'TB_Augmentation_sample': 4}"
+    },
+    "Epoch_to_Steps": {
+        "creation_line": null,
+        "line_number": null,
+        "type": "callable",
+        "name": "Epoch_to_Steps",
+        "qualname": "Epoch_to_Steps",
+        "module": "__main__",
+        "args": [
+            "epoch"
+        ],
+        "annotations": {},
+        "defaults": [],
+        "doc": null,
+        "source": "def Epoch_to_Steps(epoch):\n    return epoch * (len(y_train) // (batch_size * gradient_accumulation_steps if gradient_accumulation else batch_size))\n",
+        "line": 94
+    },
+    "lr_scheduler": {
+        "creation_line": null,
+        "line_number": null,
+        "type": "object",
+        "class": "CosineAnnealing_pWarmup&Decay",
+        "module": "torch.optim.lr_scheduler",
+        "attributes": {
+            "_schedulers": "[<torch.optim.lr_scheduler.LambdaLR object at 0x00000181C0E2ECC0>, <torch.optim.lr_scheduler.CosineAnnealingLR object at 0x00000181C0E2DF40>, <torch.optim.lr_scheduler.LinearLR object at 0x00000181C0E2E000>]",
+            "_milestones": "[28, 112]",
+            "last_epoch": "0",
+            "optimizer": "Lookahead (\nParameter Group 0\n    counter: 0\n    dampening: 0\n    differentiable: False\n    foreach: None\n    fused: None\n    initial_lr: 0.0104\n    lr: 0.000624\n    maximize: False\n    momentum: 0.91\n    nesterov: True\n    weight_decay: 0.0042\n\nParameter Group 1\n    counter: 0\n    dampening: 0\n    differentiable: False\n    foreach: None\n    fused: None\n    initial_lr: 0.0104\n    lr: 0.000624\n    maximize: False\n    momentum: 0.91\n    nesterov: True\n    weight_decay: 0\n)",
+            "_last_lr": "[0.000624, 0.000624]"
+        },
+        "source": "class SequentialLR(LRScheduler):\n    \"\"\"Receives the list of schedulers that is expected to be called sequentially during\n    optimization process and milestone points that provides exact intervals to reflect\n    which scheduler is supposed to be called at a given epoch.\n\n    Args:\n        optimizer (Optimizer): Wrapped optimizer.\n        schedulers (list): List of chained schedulers.\n        milestones (list): List of integers that reflects milestone points.\n        last_epoch (int): The index of last epoch. Default: -1.\n        verbose (bool | str): Does nothing.\n\n            .. deprecated:: 2.2\n                ``verbose`` is deprecated. Please use ``get_last_lr()`` to access the\n                learning rate.\n\n    Example:\n        >>> # xdoctest: +SKIP\n        >>> # Assuming optimizer uses lr = 1. for all groups\n        >>> # lr = 0.1     if epoch == 0\n        >>> # lr = 0.1     if epoch == 1\n        >>> # lr = 0.9     if epoch == 2\n        >>> # lr = 0.81    if epoch == 3\n        >>> # lr = 0.729   if epoch == 4\n        >>> scheduler1 = ConstantLR(optimizer, factor=0.1, total_iters=2)\n        >>> scheduler2 = ExponentialLR(optimizer, gamma=0.9)\n        >>> scheduler = SequentialLR(optimizer, schedulers=[scheduler1, scheduler2], milestones=[2])\n        >>> for epoch in range(100):\n        >>>     train(...)\n        >>>     validate(...)\n        >>>     scheduler.step()\n    \"\"\"\n\n    def __init__(\n        self,\n        optimizer: Optimizer,\n        schedulers: List[LRScheduler],\n        milestones: List[int],\n        last_epoch=-1,\n        verbose=\"deprecated\",\n    ):\n        if len(schedulers) < 1:\n            raise ValueError(\n                f\"{self.__class__.__name__} expects at least one scheduler, but got no scheduler.\"\n            )\n\n        for scheduler_idx, scheduler in enumerate(schedulers):\n            if not hasattr(scheduler, \"optimizer\"):\n                raise TypeError(\n                    f\"{self.__class__.__name__} at index {scheduler_idx} should have `optimizer` as its attribute.\"\n                )\n            if isinstance(scheduler, ReduceLROnPlateau):\n                raise ValueError(\n                    f\"{self.__class__.__name__} does not support `ReduceLROnPlateau` scheduler as it \"\n                    \"requires additional kwargs to be specified when calling `step`, \"\n                    f\"but got one at index {scheduler_idx} in the given schedulers sequence.\"\n                )\n            if optimizer != scheduler.optimizer:\n                raise ValueError(\n                    f\"{self.__class__.__name__} expects all schedulers to belong to the same optimizer, but \"\n                    f\"got scheduler {scheduler.__class__.__name__} at index {scheduler_idx} has {scheduler.optimizer}, \"\n                    f\"which is different from {optimizer.__class__.__name__}.\"\n                )\n\n        if len(milestones) != len(schedulers) - 1:\n            raise ValueError(\n                \"Sequential Schedulers expects number of schedulers provided to be one more \"\n                f\"than the number of milestone points, but got number of schedulers {len(schedulers)} and the \"\n                f\"number of milestones to be equal to {len(milestones)}\"\n            )\n        _check_verbose_deprecated_warning(verbose)\n        self._schedulers = schedulers\n        self._milestones = milestones\n        self.last_epoch = last_epoch + 1\n        self.optimizer = optimizer\n\n        # Reset learning rates back to initial values\n        for group in self.optimizer.param_groups:\n            group[\"lr\"] = group[\"initial_lr\"]\n\n        # \"Undo\" the step performed by other schedulers\n        for scheduler in self._schedulers:\n            scheduler.last_epoch -= 1\n\n        # Perform the initial step for only the first scheduler\n        self._schedulers[0]._initial_step()\n\n        self._last_lr = schedulers[0].get_last_lr()\n\n    def step(self):\n        self.last_epoch += 1\n        idx = bisect_right(self._milestones, self.last_epoch)\n        scheduler = self._schedulers[idx]\n        if idx > 0 and self._milestones[idx - 1] == self.last_epoch:\n            scheduler.step(0)\n        else:\n            scheduler.step()\n\n        self._last_lr = scheduler.get_last_lr()\n\n    def state_dict(self):\n        \"\"\"Returns the state of the scheduler as a :class:`dict`.\n\n        It contains an entry for every variable in self.__dict__ which\n        is not the optimizer.\n        The wrapped scheduler states will also be saved.\n        \"\"\"\n        state_dict = {\n            key: value\n            for key, value in self.__dict__.items()\n            if key not in (\"optimizer\", \"_schedulers\")\n        }\n        state_dict[\"_schedulers\"] = [None] * len(self._schedulers)\n\n        for idx, s in enumerate(self._schedulers):\n            state_dict[\"_schedulers\"][idx] = s.state_dict()\n\n        return state_dict\n\n    def load_state_dict(self, state_dict):\n        \"\"\"Loads the schedulers state.\n\n        Args:\n            state_dict (dict): scheduler state. Should be an object returned\n                from a call to :meth:`state_dict`.\n        \"\"\"\n        _schedulers = state_dict.pop(\"_schedulers\")\n        self.__dict__.update(state_dict)\n        # Restore state_dict keys in order to prevent side effects\n        # https://github.com/pytorch/pytorch/issues/32756\n        state_dict[\"_schedulers\"] = _schedulers\n\n        for idx, s in enumerate(_schedulers):\n            self._schedulers[idx].load_state_dict(s)\n"
+    },
+    "Opt_Lookahead_Prams": {
+        "creation_line": null,
+        "line_number": null,
+        "type": "dict",
+        "value": "{'lookahead_alpha': 0.5, 'lookahead_k': 6, 'lookahead_pullback_momentum': 'none', 'lr': 0.0104, 'momentum': 0.91, 'dampening': 0, 'weight_decay': 0.0042, 'nesterov': True, 'maximize': False, 'foreach': None, 'differentiable': False, 'fused': None}"
+    },
+    "model_info": {
+        "creation_line": null,
+        "line_number": null,
+        "type": "dict",
+        "value": "{'model_class_name': 'EfficientNet', 'model_info': 'Efficientnet-b6: Simple FC - dropout_rate=0.52 - drop_connect_rate=0.24'}"
+    }
+}

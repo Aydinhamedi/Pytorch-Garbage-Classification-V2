@@ -1,0 +1,1 @@
+Here some debug files will be stored like image processing samples and more.
