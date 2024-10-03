@@ -8,7 +8,7 @@
 A Pytorch project for garbage classification using the **EfficientNet-B6** model to achive a **95.78%** accuracy on the test set.
 
 > [!IMPORTANT]
-> This project is a new version of the original project, which can be found [here](https://github.com/Aydinhamedi/Pytorch-Garbage-Classification) **but with a improved training process + code and a different dataset**.
+> This project is a new version of the original project, which can be found [here](https://github.com/Aydinhamedi/Pytorch-Garbage-Classification) **but with a significantly improved training process + code and a different dataset**.
 
 ## 😉 Bonus
 This project is not hard coded for this specific dataset, so it can be used for any image classification task and it has all the necessary tools to train a model from scratch and more. **(I will make a pytorch classification template soon)**
