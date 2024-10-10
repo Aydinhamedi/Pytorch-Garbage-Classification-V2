@@ -2,6 +2,7 @@
 import os
 import ast
 import json
+import shutil
 import inspect
 import textwrap
 
@@ -52,7 +53,7 @@ class Reporter:
             dict: A dictionary containing the serialized representation of the variable, including information about its creation line and line number.
         """
         frame = (
-            inspect.currentframe().f_back.f_back
+            inspect.currentframe().f_back.f_back.f_back
         )  # Go two frames back to get the caller's frame
         try:
             source_lines, start_line = inspect.getsourcelines(frame)
@@ -60,7 +61,7 @@ class Reporter:
             return {"creation_line": "Source not available", "line_number": None}
 
         source = textwrap.dedent("".join(source_lines))
-
+        
         tree = ast.parse(source)
 
         creation_line = None
@@ -251,6 +252,7 @@ class Reporter:
 
     def Del_Report(self):
         """Deletes the training report, including the training parameters and history."""
+        shutil.rmtree(self.save_dir)
         del self
         # End
 
