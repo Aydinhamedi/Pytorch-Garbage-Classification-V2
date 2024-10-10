@@ -50,7 +50,7 @@ def rgb_augmentation_transform(magnitude=10, img_size=(224, 224), norm_params=No
     prob = min(magnitude / 15.0, 0.5)
     prob_Geo = min(magnitude / 10.0, 0.5)
     
-    Augment_transformes = [
+    Augment_transforms = [
         # Geometric transforms ----------------------------------------------
         v2_transforms.RandomVerticalFlip(p=prob_Geo),
         v2_transforms.RandomHorizontalFlip(p=prob_Geo),
@@ -96,7 +96,7 @@ def rgb_augmentation_transform(magnitude=10, img_size=(224, 224), norm_params=No
         # Prep data for augmentation
         v2_transforms.ToDtype(torch.float32),
         # Augmentations
-        v2_transforms.Compose(Augment_transformes),
+        v2_transforms.Compose(Augment_transforms),
         # Resize to original size
         v2_transforms.Resize(img_size, antialias=True),
     ]
