@@ -1,3 +1,24 @@
 {
-    "sarif-viewer.connectToGithubCodeScanning": "off"
+    "sarif-viewer.connectToGithubCodeScanning": "off",
+    "cSpell.words": [
+        "amsbound",
+        "annot",
+        "cmap",
+        "Efficientnet",
+        "ISCAM",
+        "nesterov",
+        "nrow",
+        "Onecycle",
+        "optim",
+        "SSCAM",
+        "subkey",
+        "subvalue",
+        "tablefmt",
+        "unscale",
+        "vutils",
+        "xlabel",
+        "xticklabels",
+        "ylabel",
+        "yticklabels"
+    ],
 }
