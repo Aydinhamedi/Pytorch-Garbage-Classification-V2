@@ -1,11 +1,11 @@
-# Garbage Classification with PyTorch V2
+# Garbage Classification V2 with PyTorch
 
 <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue"/> <img src="https://img.shields.io/badge/Jupyter-F37626.svg?&style=for-the-badge&logo=Jupyter&logoColor=white"/>  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/> 
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
 
-A Pytorch project for garbage classification using the **EfficientNet-B6** model to achive a **95.78%** accuracy on the test set.
+A Pytorch project for garbage classification using the **EfficientNet-B6** model to achieve a **95.78%** accuracy on the test set.
 
 > [!IMPORTANT]
 > This project is a new version of the original project, which can be found [here](https://github.com/Aydinhamedi/Pytorch-Garbage-Classification) **but with a significantly improved training process + code and a different dataset**.
